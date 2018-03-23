@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Code modeled from https://jorin.me/d3-canvas-globe-hover/
+-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Global Pollution</title>
+
+	<style type="text/css">
+		body {
+			font-family: "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 14px;
+			color: #333;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="content">
+		<canvas></canvas>
+	</div>
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
+
+	<script type="text/javascript">
+		var geojson = {}
+		var cities;
+		var countries = [];
+
+		var PM10min = 99999;
+		var PM10max = 0;
+		var PM10avg = 0;
+
+		var PM25min = 99999;
+		var PM25max = 0;
+		var PM25avg = 0;
+
+		var colorScale;
+
+		// REQUEST DATA
+		d3.json("./custom.geo.json", function (err, json) {
+			geojson = json;
+
+			d3.csv("./who-aap-database-countries-may2016.csv", function (data) {
+				data.forEach(c => {
+					countries.push({
+						Country: c.Country,
+						Cities: parseInt(c.Cities),
+						PM10: parseInt(c.PM10),
+						PM25: parseInt(c.PM25)
+					});
+				});
+				visualization();
+			});
+		});
+
+		function visualization() {
+			console.log(countries);
+			countries.forEach(c => {
+
+				//console.log(PM10max);
+				//find min and max
+				if (c.PM10 > PM10max) {
+					PM10max = c.PM10;
+					//console.log(PM10max);
+				}
+				else if (c.PM10 < PM10min) {
+					PM10min = c.PM10;
+				}
+
+				if (c.PM25 > PM25max) {
+					PM25max = c.PM25;
+				}
+				else if (c.PM25 < PM25min) {
+					PM25min = c.PM25;
+				}
+
+				PM10avg += c.PM10;
+				PM25avg += c.PM25;
+			});
+
+			PM10avg /= countries.length;
+			PM25avg /= countries.length;
+
+			//console.log("Min " + PM10min);
+			//console.log("Max " + PM10max);
+
+			var w = document.documentElement.clientWidth;
+			var h = document.documentElement.clientHeight;
+
+			var context = d3.select('#content canvas')
+				.attr("width", w)
+				.attr("height", h)
+				.node()
+				.getContext('2d');
+
+			var projection = d3.geoOrthographic()
+				.scale(300);
+
+			var geoGenerator = d3.geoPath()
+				.projection(projection)
+				.pointRadius(4)
+				.context(context);
+
+			var yaw = 300;
+
+			var PM10Scale = d3.scaleLinear()
+				.domain([PM10min, PM10max])
+				.range([0, 255]);
+
+			function getColor(data) {
+				//console.log(data.properties.name);
+				var country = countries.find(function (c) {
+					return c.Country == data.properties.name;
+				});
+
+				if (country != null) {
+					var scale = Math.round(PM10Scale(country.PM10));
+					//console.log("rbga(255," + scale + "," + scale + ",1)");
+					return "rgba(255," + scale + "," + scale + ",1)";
+				}
+				else {
+					return "black";
+				}
+			}
+
+			function update() {
+				projection.rotate([yaw, -45])
+
+				context.clearRect(0, 0, 800, 600);
+
+				context.lineWidth = 0.5;
+				context.strokeStyle = 'black';
+
+				geojson.features.forEach(function (d) {
+					context.beginPath();
+					context.fillStyle = getColor(d);//state.clickedLocation && d3.geoContains(d, state.clickedLocation) ? 'red' : '#aaa'"";
+					geoGenerator(d);
+					//context.fill();
+					// context.on("mouseover", function(d,i){
+					// 	context.fillStyle = "yellow";
+					// });
+					// context.on("mouseout", function(d,i){
+					// 	context.fillStyle = getColor(d);
+					// });
+					context.fill();
+					//console.log(context);
+				})
+
+				context.beginPath();
+				geoGenerator({ type: 'FeatureCollection', features: geojson.features })
+				context.stroke();
+
+				// Graticule
+				var graticule = d3.geoGraticule();
+				context.beginPath();
+				context.strokeStyle = '#ccc';
+				geoGenerator(graticule());
+				context.stroke();
+
+				yaw -= 0.2;
+			}
+
+			window.setInterval(update, 20);
+			
+		}
+
+	</script>
+</body>
+
+</html>
