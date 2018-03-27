@@ -1,124 +1,264 @@
-
 <!-- saved from url=(0061)http://www.ourd3js.com/map/demo/worldmap_sphere/worldmap.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
-          
-        <title>Globe</title>  
-  <style>
+<html>
 
-.map_path {
-	stroke: black;
-	stroke-width: 1;
-}
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-.grid_path{
-	stroke: gray;
-	stroke-width: 1;
-	fill:none;
-	opacity: 1;
-}
+	<title>Globe</title>
+	<style>
+		.map_path {
+			stroke: black;
+			stroke-width: 1;
+		}
 
-</style></head> 
+		.grid_path {
+			stroke: gray;
+			stroke-width: 1;
+			fill: none;
+			opacity: 1;
+		}
+	</style>
+</head>
 
 <body>
-<script src="./Globe_files/d3.v3.min.js"></script>
-<script>
-	var width  = 500;
-	var height = 440;
-	var speed = 0.02;
-	var startTime = Date.now();
-	var currentTime = Date.now();
-	var isMouseOn = false;
-	
-	var svg = d3.select("body").append("svg")
-	    .attr("width", width)
-	    .attr("height", height);
-	
-	var projection = d3.geo.orthographic()
-						.scale(200);
-						
-	var graticule = d3.geo.graticule();
-	
-	var path = d3.geo.path()
-					.projection(projection);
-	
-	var color = d3.scale.category20();
-	
-	svg.append("text")
-		.attr("id","loading")
-		.attr("x",width/2)
-		.attr("y",height/2)
-		.text("Now Loading...");
-	
-	d3.json("world_605kb.json", function(error, root) {
-		if (error) 
-			return console.error(error);
-		console.log(root);
-		
-		var grid = graticule();
-		
-		console.log(grid);
-		
-		var map = svg.append("g")
-					 .attr("transform", "translate(" +  -230 + "," + -20 + ")");
-		
-		map.append("path")
-			.datum( grid )
-			.attr("id","grid_id")
-			.attr("class","grid_path")
-			.attr("d",path);
-		
-		map.selectAll(".map_path")
-				.data( root.features )
-				.enter()
-				.append("path")
-				.attr("class","map_path")
-				.attr("fill",function(d,i){
-					return color(i);
-				})
-				.attr("d", path )
-				.on("mouseover",function(d,i){
-					console.log(d);
-					console.log(d.properties.BRK_NAME);
-					isMouseOn = true;
-					d3.select(this)
-						.attr("fill","yellow");
-				})
-				.on("mouseout",function(d,i){
-					isMouseOn = false;
-					d3.select(this)
-						.attr("fill",color(i));
-				});;
+	<!-- <script src="./Globe_files/d3.v3.min.js"></script> -->
+	<!-- <script src='./d3.js'></script> -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
+	<script>
 
-		svg.select("#loading")
-			.attr("opacity",0);
+
+
+		//Polution data
+		var countries = [];
+
+		var PM10min = 99999;
+		var PM10max = 0;
+		var PM10avg = 0;
+		var PM10s = [];
+
+		var PM25min = 99999;
+		var PM25max = 0;
+		var PM25avg = 0;
+		var PM25s = [];
+
+		//Color scales
+		var PM10Scale;
+		var PM25Scale;
+
 		
+		//get data from CSV
+		d3.csv("./who-aap-database-countries-may2016.csv", function (data) {
+			data.forEach(c => {
+				countries.push({
+					Country: c.Country,
+					Cities: parseInt(c.Cities),
+					PM10: parseInt(c.PM10),
+					PM25: parseInt(c.PM25)
+				});
+				PM10s.push(parseInt(c.PM10));
+				PM25s.push(parseInt(c.PM25));
+			});
+			PM10s.sort(function(a, b){return a.PM10-b.PM10});
+			PM25s.sort(function(a, b){return a.PM25-b.PM25});
 
-		positionLock = 0;
-
-		d3.timer(function() {
-			
-			currentTime = Date.now();
-			var timeDiff = currentTime - startTime;
-			if(!isMouseOn){
-				// console.log(timeDiff);
-				projection.rotate([speed * timeDiff, -15]).clipAngle(90);
-			}else{
-				// console.log(currentTime);
-				// startTime = Date.now();
-			}
-
-			map.select("#grid_id")
-				.attr("d",path);
-			
-			map.selectAll(".map_path")
-				.attr("d",path);
-
-			
+			PMData();
+			visualization();
 		});
-		
-	});
-	
 
-</script>
-	</body>
+
+
+		function PMData() {
+			console.log("here");
+			//Find min, max, and average for PM10 and PM2.5 
+			countries.forEach(c => {
+
+				//console.log(PM10max);
+				//find min and max
+				if (c.PM10 > PM10max) {
+					PM10max = c.PM10;
+					//console.log(PM10max);
+					//console.log(c);
+				}
+				else if (c.PM10 < PM10min) {
+					PM10min = c.PM10;
+				}
+
+				if (c.PM25 > PM25max) {
+					PM25max = c.PM25;
+				}
+				else if (c.PM25 < PM25min) {
+					PM25min = c.PM25;
+				}
+
+				PM10avg += c.PM10;
+				PM25avg += c.PM25;
+			});
+
+			PM10avg /= countries.length;
+			PM25avg /= countries.length;
+
+			// PM10Scale = function(PM10)
+			// {
+
+			// }
+			PM10Scale = d3.scaleQuantile()
+							.domain(PM10s)
+							.range([255, 170, 85, 0]);
+			// PM10Scale = d3.scaleLinear()
+			// 	.domain([PM10min, PM10max])
+			// 	.range([100, 255]);
+
+			// PM10Scale = d3.scaleLinear()
+			// 	.domain([PM10min, PM10max])
+			// 	.range([0, 255]);
+
+			PM25Scale = d3.scaleLinear()
+				.domain([PM25min, PM25max])
+				.range([0, 255]);
+
+			console.log("Min " + PM10min);
+			console.log("Max " + PM10max);
+			console.log("Avg " + PM10avg);
+		}
+
+		function getColor(data) {
+			//console.log(data.properties.name);
+			var country = countries.find(function (c) {
+				//Some country names have multiple forms (USA, U.S.A., United States of America) etc.
+				//so compare each country name from the pollution database to each property of the
+				//selected country
+				if (Object.values(data.properties).find(function (d) {
+					if (c.Country == d) {
+						return true;
+					}
+				})) {
+					return c.Country;
+				}
+
+				//== data.properties.name;
+			});
+			//console.log(country);
+
+			if (country != null) {
+				var scale = Math.round(PM10Scale(country.PM10));
+				//console.log("rbga(255," + scale + "," + scale + ",1)");
+				console.log(country.Country);
+				console.log("    PM10: " + country.PM10);
+				console.log("rbga(255," + scale + "," + scale + ",1)");
+				return "rgba(255," + scale + "," + scale + ",1)";
+			}
+			else {
+				return "gray";
+			}
+		}
+
+		function visualization() {
+
+			console.log(countries);
+
+			//Visualization
+			var width = 500;
+			var height = 440;
+			var speed = 0.02;
+			var startTime = Date.now();
+			var currentTime = Date.now();
+			var isMouseOn = false;
+
+			var svg = d3.select("body").append("svg")
+				.attr("width", width)
+				.attr("height", height);
+
+			var projection = d3.geoOrthographic()
+				.scale(200);
+
+			var graticule = d3.geoGraticule();
+
+			var path = d3.geoPath()
+				.projection(projection);
+
+			var color = "gray";//d3.scale.category20();
+
+			svg.append("text")
+				.attr("id", "loading")
+				.attr("x", width / 2)
+				.attr("y", height / 2)
+				.text("Now Loading...");
+
+
+			d3.json("world_605kb.json", function (root) {
+				// if (error)
+				// 	return console.error(error);
+				console.log(root);
+
+				var grid = graticule();
+
+				console.log(grid);
+
+				var map = svg.append("g")
+					.attr("transform", "translate(" + -230 + "," + -20 + ")");
+
+				map.append("path")
+					.datum(grid)
+					.attr("id", "grid_id")
+					.attr("class", "grid_path")
+					.attr("d", path);
+
+				map.selectAll(".map_path")
+					.data(root.features)
+					.enter()
+					.append("path")
+					.attr("class", "map_path")
+					.attr("fill", function (d, i) {
+						//console.log(Object.values(d.properties));
+						return getColor(d);//color(i);
+					})
+					.attr("d", path)
+					.on("mouseover", function (d, i) {
+						//console.log(d);
+						//console.log(d.properties.BRK_NAME);
+						//console.log(Object.values(d.properties));
+						
+						
+						//console.log(d3.select(this).attr("fill"));
+						isMouseOn = true;
+						d3.select(this)
+							.attr("fill", "yellow");
+					})
+					.on("mouseout", function (d, i) {
+						isMouseOn = false;
+						d3.select(this)
+							//.attr("fill", color(i));
+							.attr("fill", getColor(d));
+					});
+
+				svg.select("#loading")
+					.attr("opacity", 0);
+
+
+				positionLock = 0;
+
+				d3.timer(function () {
+
+					currentTime = Date.now();
+					var timeDiff = currentTime - startTime;
+					if (!isMouseOn) {
+						// console.log(timeDiff);
+						projection.rotate([speed * timeDiff, -15]).clipAngle(90);
+					} else {
+						// console.log(currentTime);
+						// startTime = Date.now();
+					}
+
+					map.select("#grid_id")
+						.attr("d", path);
+
+					map.selectAll(".map_path")
+						.attr("d", path);
+				});
+
+			});
+		}
+	</script>
+</body>
+
 </html>
