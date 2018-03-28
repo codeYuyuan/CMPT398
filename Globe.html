@@ -17,16 +17,15 @@
 	opacity: 1;
 }
 
-</style></head> 
+</style>
+</head> 
 
 <body>
 <script src="./Globe_files/d3.v3.min.js"></script>
 <script>
 	var width  = 500;
 	var height = 440;
-	var speed = 0.02;
-	var startTime = Date.now();
-	var currentTime = Date.now();
+	var speed = 0.5;
 	var isMouseOn = false;
 	
 	var svg = d3.select("body").append("svg")
@@ -77,7 +76,7 @@
 				})
 				.attr("d", path )
 				.on("mouseover",function(d,i){
-					console.log(d);
+					// console.log(d);
 					console.log(d.properties.BRK_NAME);
 					isMouseOn = true;
 					d3.select(this)
@@ -93,20 +92,15 @@
 			.attr("opacity",0);
 		
 
-		positionLock = 0;
+		
+		var offset = 0;
+		var positionLock = 0;
+		currentDegree = 0;
 
 		d3.timer(function() {
-			
-			currentTime = Date.now();
-			var timeDiff = currentTime - startTime;
 			if(!isMouseOn){
-				// console.log(timeDiff);
-				projection.rotate([speed * timeDiff, -15]).clipAngle(90);
-			}else{
-				// console.log(currentTime);
-				// startTime = Date.now();
+				projection.rotate([speed * (currentDegree++), -15]).clipAngle(90);
 			}
-
 			map.select("#grid_id")
 				.attr("d",path);
 			
