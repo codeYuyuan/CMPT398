@@ -45,7 +45,7 @@
 		var PM10Scale;
 		var PM25Scale;
 
-		
+
 		//get data from CSV
 		d3.csv("./who-aap-database-countries-may2016.csv", function (data) {
 			data.forEach(c => {
@@ -58,8 +58,8 @@
 				PM10s.push(parseInt(c.PM10));
 				PM25s.push(parseInt(c.PM25));
 			});
-			PM10s.sort(function(a, b){return a.PM10-b.PM10});
-			PM25s.sort(function(a, b){return a.PM25-b.PM25});
+			PM10s.sort(function (a, b) { return a.PM10 - b.PM10 });
+			PM25s.sort(function (a, b) { return a.PM25 - b.PM25 });
 
 			PMData();
 			visualization();
@@ -102,19 +102,12 @@
 
 			// }
 			PM10Scale = d3.scaleQuantile()
-							.domain(PM10s)
-							.range([255, 170, 85, 0]);
-			// PM10Scale = d3.scaleLinear()
-			// 	.domain([PM10min, PM10max])
-			// 	.range([100, 255]);
+				.domain(PM10s)
+				.range([255, 170, 85, 0]);
 
-			// PM10Scale = d3.scaleLinear()
-			// 	.domain([PM10min, PM10max])
-			// 	.range([0, 255]);
-
-			PM25Scale = d3.scaleLinear()
-				.domain([PM25min, PM25max])
-				.range([0, 255]);
+			PM25Scale = d3.scaleQuantile()
+				.domain([PM25s])
+				.range([255, 170, 85, 0]);
 
 			console.log("Min " + PM10min);
 			console.log("Max " + PM10max);
@@ -157,11 +150,14 @@
 			console.log(countries);
 
 			//Visualization
-			var width = 500;
-			var height = 440;
+			//var width = 500;
+			//var height = 440;
+			var width = document.documentElement.clientWidth;
+			var height = document.documentElement.clientHeight;
 			var speed = 0.02;
 			var startTime = Date.now();
 			var currentTime = Date.now();
+			var angle = 0;
 			var isMouseOn = false;
 
 			var svg = d3.select("body").append("svg")
@@ -169,7 +165,7 @@
 				.attr("height", height);
 
 			var projection = d3.geoOrthographic()
-				.scale(200);
+				.scale(300);
 
 			var graticule = d3.geoGraticule();
 
@@ -195,7 +191,8 @@
 				console.log(grid);
 
 				var map = svg.append("g")
-					.attr("transform", "translate(" + -230 + "," + -20 + ")");
+					.attr("transform", "translate(" + 0 + "," + 50 + ")");
+					//.attr("transform", "translate(" + -230 + "," + -20 + ")");
 
 				map.append("path")
 					.datum(grid)
@@ -214,12 +211,6 @@
 					})
 					.attr("d", path)
 					.on("mouseover", function (d, i) {
-						//console.log(d);
-						//console.log(d.properties.BRK_NAME);
-						//console.log(Object.values(d.properties));
-						
-						
-						//console.log(d3.select(this).attr("fill"));
 						isMouseOn = true;
 						d3.select(this)
 							.attr("fill", "yellow");
@@ -227,7 +218,6 @@
 					.on("mouseout", function (d, i) {
 						isMouseOn = false;
 						d3.select(this)
-							//.attr("fill", color(i));
 							.attr("fill", getColor(d));
 					});
 
@@ -237,24 +227,40 @@
 
 				positionLock = 0;
 
-				d3.timer(function () {
-
-					currentTime = Date.now();
-					var timeDiff = currentTime - startTime;
+				d3.interval(function () {
 					if (!isMouseOn) {
 						// console.log(timeDiff);
-						projection.rotate([speed * timeDiff, -15]).clipAngle(90);
-					} else {
-						// console.log(currentTime);
-						// startTime = Date.now();
+						//console.log(projection.rotate());
+						var angles = projection.rotate();
+						//angles[0] += 10;
+						//svg.rotate(angles[0]);
+						angle += 0.5;
+						projection.rotate([angle, -15]);//.clipAngle(90);
 					}
-
-					map.select("#grid_id")
-						.attr("d", path);
+					// map.select("#grid_id")
+					// 	.attr("d", path);
 
 					map.selectAll(".map_path")
 						.attr("d", path);
-				});
+				}, 50);
+
+				// d3.timer(function () {
+				// 	if (!isMouseOn) {
+				// 		currentTime = Date.now();
+				// 		var timeDiff = currentTime - startTime;
+				// 		// console.log(timeDiff);
+				// 		projection.rotate([speed * timeDiff, -15]).clipAngle(90);
+				// 	} else {
+				// 		// console.log(currentTime);
+				// 		startTime = Date.now();
+				// 	}
+
+				// 	map.select("#grid_id")
+				// 		.attr("d", path);
+
+				// 	map.selectAll(".map_path")
+				// 		.attr("d", path);
+				// });
 
 			});
 		}
