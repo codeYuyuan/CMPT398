@@ -45,6 +45,7 @@
 		var PM10Scale;
 		var PM25Scale;
 
+		var globe = [];
 
 		//get data from CSV
 		d3.csv("./who-aap-database-countries-may2016.csv", function (data) {
@@ -135,9 +136,9 @@
 			if (country != null) {
 				var scale = Math.round(PM10Scale(country.PM10));
 				//console.log("rbga(255," + scale + "," + scale + ",1)");
-				console.log(country.Country);
-				console.log("    PM10: " + country.PM10);
-				console.log("rbga(255," + scale + "," + scale + ",1)");
+				// console.log(country.Country);
+				// console.log("    PM10: " + country.PM10);
+				// console.log("rbga(255," + scale + "," + scale + ",1)");
 				return "rgba(255," + scale + "," + scale + ",1)";
 			}
 			else {
@@ -192,7 +193,7 @@
 
 				var map = svg.append("g")
 					.attr("transform", "translate(" + 0 + "," + 50 + ")");
-					//.attr("transform", "translate(" + -230 + "," + -20 + ")");
+				//.attr("transform", "translate(" + -230 + "," + -20 + ")");
 
 				map.append("path")
 					.datum(grid)
@@ -227,43 +228,66 @@
 
 				positionLock = 0;
 
+				createRotations(map);
+
 				d3.interval(function () {
 					if (!isMouseOn) {
-						// console.log(timeDiff);
-						//console.log(projection.rotate());
-						var angles = projection.rotate();
-						//angles[0] += 10;
-						//svg.rotate(angles[0]);
-						angle += 0.5;
-						projection.rotate([angle, -15]);//.clipAngle(90);
+						angle += 1;
+
+						angle %= 360;
+
+						//d3.selectAll("svg").remove();
+						//svg = d3.select("body").append("svg", globe[angle]);
+
+
+						//console.log(globe[angle]);
+						//map.attr("g",globe[angle]);
+						//console.log(map.attr("g"));
+						//projection.rotate([angle, -15]);//.clipAngle(90);
 					}
 					// map.select("#grid_id")
 					// 	.attr("d", path);
 
-					map.selectAll(".map_path")
-						.attr("d", path);
+					// map.selectAll(".map_path")
+					// 	.attr("d", path);
 				}, 50);
 
-				// d3.timer(function () {
-				// 	if (!isMouseOn) {
-				// 		currentTime = Date.now();
-				// 		var timeDiff = currentTime - startTime;
-				// 		// console.log(timeDiff);
-				// 		projection.rotate([speed * timeDiff, -15]).clipAngle(90);
-				// 	} else {
-				// 		// console.log(currentTime);
-				// 		startTime = Date.now();
-				// 	}
+				function createRotations(map) {
 
-				// 	map.select("#grid_id")
-				// 		.attr("d", path);
+					for (var i = 0; i < 360; i++) {
+						projection.rotate([i, -15]);
+						map.selectAll(".map_path")
+							.attr("d", path);
+
+						globe[i] = d3.selectAll("svg");
+						console.log(d3.selectAll("svg"));
+					}
+					console.log(globe);
+				}
+
+				// d3.interval(function () {
+				// 	if (!isMouseOn) {
+				// 		// console.log(timeDiff);
+				// 		//console.log(projection.rotate());
+				// 		var angles = projection.rotate();
+				// 		//angles[0] += 10;
+				// 		//svg.rotate(angles[0]);
+				// 		angle += 0.5;
+				// 		projection.rotate([angle, -15]);//.clipAngle(90);
+				// 	}
+				// 	// map.select("#grid_id")
+				// 	// 	.attr("d", path);
 
 				// 	map.selectAll(".map_path")
 				// 		.attr("d", path);
-				// });
-
+				// }, 50);
 			});
+
+
 		}
+
+
+
 	</script>
 </body>
 
