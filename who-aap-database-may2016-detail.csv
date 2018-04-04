@@ -1,0 +1,2973 @@
+Country,City,PM10,PM25
+Afghanistan,Kabul,260,86
+Afghanistan,Mazar-e Sharif,334,68
+Albania,TIRANA,32,16
+Andorra,Escaldes-Engordany,18,11
+Argentina,Buenos Aires,26,14
+Australia,Adelaide,17,7
+Australia,Albany,16,7
+Australia,Albury,16,7
+Australia,Ayr,20,9
+Australia,Bathurst,15,6
+Australia,Brisbane,16,6
+Australia,Bunbury,16,8
+Australia,Busselton,17,7
+Australia,Canberra,16,7
+Australia,Central Coast,13,6
+Australia,Collie,19,8
+Australia,Darwin,19,8
+Australia,"Devonport, Tasmania",15,6
+Australia,Geelong,18,8
+Australia,Geraldton,22,10
+Australia,Gladstone,14,5
+Australia,"Hobart, Tasmania",14,6
+Australia,La Trobe Valley,20,10
+Australia,"Launceston, Tasmania",19,8
+Australia,Lower Hunter,17,7
+Australia,Mackay,17,7
+Australia,Melbourne,19,8
+Australia,Moranbah,21,9
+Australia,Mount Isa,16,7
+Australia,Muswellbrook,21,9
+Australia,Newcastle,19,8
+Australia,Palmerston,22,9
+Australia,Perth,17,8
+Australia,Singleton,21,9
+Australia,Sydney,17,8
+Australia,Tamworth,16,7
+Australia,Townsville,17,7
+Australia,Upper Hunter,20,8
+Australia,Wagga Wagga,21,8
+Australia,Whyalla,16,7
+Australia,Wollongong,17,7
+Australia,Wyong,15,6
+Austria,ARNOLDSTEIN,14,10
+Austria,BAD ISCHL,16,12
+Austria,BAD VÃ¶SLAU,18,13
+Austria,BIEDERMANNSDORF,20,15
+Austria,BLUDENZ,18,13
+Austria,BRUCK AN DER MUR,24,18
+Austria,DEUTSCHLANDSBERG,22,16
+Austria,DORNBIRN,19,14
+Austria,EBENTHAL,20,15
+Austria,EISENSTADT,24,19
+Austria,FELDKIRCH,23,17
+Austria,FÃ_RSTENFELD,26,19
+Austria,GÃ_nserndorf,21,15
+Austria,GRAZ,25,19
+Austria,GROSSENZERSDORF,24,18
+Austria,HALL IN TIROL,24,18
+Austria,HALLEIN,24,18
+Austria,HARTBERG,24,17
+Austria,HEITERWANG,13,10
+Austria,HIMBERG,23,17
+Austria,HÃ¶CHST,21,16
+Austria,IMST,18,13
+Austria,INNSBRUCK,21,14
+Austria,JUDENBURG,17,13
+Austria,KAPFENBERG,18,13
+Austria,KEMATEN,20,15
+Austria,KLAGENFURT,23,14
+Austria,KLOSTERNEUBURG,27,20
+Austria,KNITTELFELD,21,16
+Austria,KREMS,24,17
+Austria,KUFSTEIN,17,13
+Austria,LEOBEN,20,14
+Austria,LIENZ,20,15
+Austria,LIEZEN,20,15
+Austria,LINZ,26,17
+Austria,LUSTENAU,20,15
+Austria,MÃ¶DLING,21,15
+Austria,MÃ_RZZUSCHLAG,17,13
+Austria,SALZBURG,25,16
+Austria,SANKT ANDRÃ_ IM LAVANTTAL,24,18
+Austria,SANKT POELTEN,24,18
+Austria,SANKT VEIT AN DER GLAN,22,16
+Austria,SCHWAZ,20,15
+Austria,SCHWECHAT,23,17
+Austria,SPITTAL AN DER DRAU,20,15
+Austria,STEYR,20,15
+Austria,STEYREGG,26,19
+Austria,STOCKERAU,23,17
+Austria,TRAISMAIER,22,16
+Austria,TULLN,22,16
+Austria,VILLACH,19,14
+Austria,VÃ¶CKLABRUCK,21,15
+Austria,WEIZ,26,19
+Austria,WELS,23,18
+Austria,WIEN,26,18
+Austria,WIENER NEUDORF,23,16
+Austria,WIENER NEUSTADT,18,13
+Austria,WOLFSBERG,26,19
+Austria,WÃ¶RGL,20,15
+Austria,ZELTWEG,21,16
+Bahrain,Hamad Town,318,66
+Bahrain,Hidd,178,41
+Bahrain,Ma'ameer,257,64
+Bahrain,Nabih Saleh,244,58
+Bahrain,Ras Hayan,250,44
+Bangladesh,Barisal,142,85
+Bangladesh,Chittagong,135,95
+Bangladesh,Dhaka,158,90
+Bangladesh,Gazipur,155,89
+Bangladesh,Khulna,109,61
+Bangladesh,Narayangonj,191,106
+Bangladesh,Rajshahi,64,37
+Bangladesh,Sylhet,170,61
+Belgium,AARSCHOT,23,16
+Belgium,ANDENNE,18,13
+Belgium,ANTWERPEN,27,17
+Belgium,BERENDRECHT,26,17
+Belgium,BERTRIX,15,10
+Belgium,BOOM,25,17
+Belgium,BRUGGE,25,17
+Belgium,BRUSSELS,26,18
+Belgium,CHARLEROI,23,15
+Belgium,CHATELET,21,14
+Belgium,CORROY LE GRAND,20,15
+Belgium,DESSEL,22,15
+Belgium,DESTELBERGEN,25,17
+Belgium,ENGIS,31,17
+Belgium,EVERGEM,30,19
+Belgium,GENK,26,18
+Belgium,GENT,30,19
+Belgium,HABAY LA NEUVE,15,11
+Belgium,HASSELT,24,18
+Belgium,HERSTAL,20,13
+Belgium,HOBOKEN,28,19
+Belgium,HOEVENEN,26,18
+Belgium,LANDEN,23,15
+Belgium,LIEGE,22,15
+Belgium,MECHELEN,25,17
+Belgium,MENEN,27,18
+Belgium,MOERKERKE,24,16
+Belgium,MONS,28,16
+Belgium,OOSTROZEBEKE,31,21
+Belgium,RETIE,22,15
+Belgium,ROESELAERE,28,19
+Belgium,SAINTE-ODE,13,9
+Belgium,SERAING,25,16
+Belgium,SOMME-LEUZE,16,11
+Belgium,STEENOKKERZEEL,25,17
+Belgium,TOURNAI,21,14
+Belgium,VEURNE,24,16
+Belgium,VIELSALM,13,9
+Belgium,VILVOORDE,27,18
+Belgium,VIROINVAL,15,10
+Belgium,ZELZATE,30,20
+Belgium,ZWEVEGEM,27,18
+Belgium,ZWIJNDRECHT,29,20
+Bhutan,Thimphu,78,43
+"Bolivia, Plurinational States of",Cochabamba,60,32
+"Bolivia, Plurinational States of",La Paz,82,44
+Bosnia and Herzegovina,SARAJEVO,50,30
+Bosnia and Herzegovina,TUZLA,106,65
+Brazil,"Americana, REGIÃƒO METROPOLITANA DE CAMPINAS",36,16
+Brazil,"AraÃ§atuba, INTERIOR DO ESTADO",34,16
+Brazil,"Araraquara, INTERIOR DO ESTADO",34,16
+Brazil,AraucÃ¡ria,31,14
+Brazil,"Barra Mansa, REGIÃƒO DO MÃ‰DIO PARAÃçBA",28,13
+Brazil,"Bauru, INTERIOR DO ESTADO",29,13
+Brazil,"Campinas, REGIÃƒO METROPOLITANA DE CAMPINAS",35,16
+Brazil,"Campos, REGIÃƒO DO NORTE FLUMINENSE",26,12
+Brazil,"Canoas, REGIÃƒO METROPOLITANA DE PORTO ALEGRE",29,13
+Brazil,"Cantagalo - EuclidelÃ¢ndia, REGIÃƒO SUL",20,9
+Brazil,"Catanduva, INTERIOR DO ESTADO",41,19
+Brazil,"Charqueadas, REGIÃƒO METROPOLITANA DE PORTO ALEGRE",29,13
+Brazil,Colombo,39,18
+Brazil,"CordeirÃ_polis â€“ MÃ_dolo, INTERIOR DO ESTADO",38,17
+Brazil,"CubatÃ£o, REGIÃƒO METROPOLITANA DA BAIXADA SANTISTA",69,31
+Brazil,Curitiba,24,11
+Brazil,"GravataÃ_, REGIÃƒO METROPOLITANA DE PORTO ALEGRE",16,7
+Brazil,"ItaboraÃ_ , REGIÃƒO METROPOLITANA DO RIO DE JANEIRO",46,18
+Brazil,"ItaguaÃ_, REGIÃƒO METROPOLITANA DO RIO DE JANEIRO",31,14
+Brazil,"Jaboticabal, INTERIOR DO ESTADO",38,17
+Brazil,"Jacarei, REGIÃƒO METROPOLITANA DO VALE DO PARAÃçBA E LITORAL NORTE",25,11
+Brazil,"Japeri, REGIÃƒO METROPOLITANA DO RIO DE JANEIRO",33,15
+Brazil,"JaÃº, INTERIOR DO ESTADO",25,11
+Brazil,"JundiaÃ_, INTERIOR DO ESTADO",30,14
+Brazil,"Limeira â€“ Boa Vista, INTERIOR DO ESTADO",41,19
+Brazil,"Madre de Deus, REGIÃƒO METROPOLITANA DE SALVADOR",12,5
+Brazil,"MalembÃ¡, REGIÃƒO METROPOLITANA DE SALVADOR",18,8
+Brazil,"MarÃ_lia, INTERIOR DO ESTADO",22,10
+Brazil,"PaulÃ_nia, REGIÃƒO METROPOLITANA DE CAMPINAS",40,18
+Brazil,"Piracicaba, INTERIOR DO ESTADO",38,15
+Brazil,"Porto Real, REGIÃƒO DO MÃ‰DIO PARAÃçBA",17,8
+Brazil,"Presidente Prudente, INTERIOR DO ESTADO",21,10
+Brazil,"Quatis, REGIÃƒO DO MÃ‰DIO PARAÃçBA",27,12
+Brazil,REGIÃƒO METROPOLITANA DE SÃƒO PAULO,35,19
+Brazil,REGIÃƒO METROPOLITANA DO RIO DE JANEIRO,49,16
+Brazil,"Resende, REGIÃƒO DO MÃ‰DIO PARAÃçBA",29,13
+Brazil,"Rio Claro, INTERIOR DO ESTADO",56,26
+Brazil,"Santa Gertrudes â€“ Jd. Luciana, INTERIOR DO ESTADO",95,44
+Brazil,"Santos, REGIÃƒO METROPOLITANA DA BAIXADA SANTISTA",39,18
+Brazil,"SÃ£o JosÃ© do Rio Preto, INTERIOR DO ESTADO",39,16
+Brazil,"SÃ£o JosÃ© dos Campos, REGIÃƒO METROPOLITANA DO VALE DO PARAÃçBA E LITORAL NORTE",30,14
+Brazil,"SeropÃ©dica, REGIÃƒO METROPOLITANA DO RIO DE JANEIRO",31,15
+Brazil,"Sorocaba, REGIÃƒO METROPOLITANA DE SOROCABA",39,18
+Brazil,"TatuÃ_, REGIÃƒO METROPOLITANA DE SOROCABA",24,11
+Brazil,"Volta Redonda, REGIÃƒO DO MÃ‰DIO PARAÃçBA",33,14
+Bulgaria,BLAGOEVGRAD,39,28
+Bulgaria,Burgas,36,26
+Bulgaria,Devnia,27,19
+Bulgaria,Dimitrovgad,59,42
+Bulgaria,Dolny Voden,54,38
+Bulgaria,Galabovo,36,25
+Bulgaria,GORNA ORIAHOVICA,43,31
+Bulgaria,HASKOVO,46,33
+Bulgaria,Kardjaly,40,28
+Bulgaria,LOVECH,39,28
+Bulgaria,MONTANA,52,37
+Bulgaria,Pazarjik,46,33
+Bulgaria,Pernik,47,31
+Bulgaria,Pirdop,36,26
+Bulgaria,Pleven,42,30
+Bulgaria,Plovdiv,59,34
+Bulgaria,Ruse,47,33
+Bulgaria,Shumen,38,27
+Bulgaria,SLIVEN,39,28
+Bulgaria,Smolian,43,31
+Bulgaria,Sofia,43,22
+Bulgaria,Stara Zagora,42,13
+Bulgaria,Varna,51,36
+Bulgaria,Veliko Tarnovo,40,26
+Bulgaria,Vratza,39,28
+Cameroon,Bafoussam,105,67
+Cameroon,Bamenda,141,132
+Cameroon,YaoudÃ©,65,49
+Canada,ABBOTSFORD,12,7
+Canada,AUCLAIR,5,3
+Canada,AYLESFORD,9,5
+Canada,BARRIE,12,7
+Canada,BATHURST,12,7
+Canada,BEAVERLODGE,14,8
+Canada,BELLEVILLE,12,7
+Canada,BRAMPTON,14,8
+Canada,BRANDON,14,6
+Canada,BRANTFORD,14,8
+Canada,BRUDERHEIM,17,10
+Canada,BURLINGTON,16,9
+Canada,BURNABY,10,6
+Canada,CALGARY,11,9
+Canada,CAROLINE,7,4
+Canada,CASTLEGAR,13,7
+Canada,CHARETTE,14,8
+Canada,CHATHAM,14,8
+Canada,CHILLIWACK,12,6
+Canada,COLD LAKE,14,8
+Canada,CORNER BROOK,11,6
+Canada,CORNWALL,14,8
+Canada,COURTENAY,30,17
+Canada,DARTMOUTH,12,7
+Canada,DELTA,11,6
+Canada,DESCHAMBAULT,12,7
+Canada,DORSET,9,5
+Canada,DUNCAN,16,9
+Canada,EDMONTON,15,8
+Canada,ELK ISLAND,9,5
+Canada,FERME NEUVE,9,5
+Canada,FLIN FLON,13,5
+Canada,FORT MACKAY,11,6
+Canada,FORT MCMURRAY,11,7
+Canada,FORT SASKATCHEWAN,12,7
+Canada,FORT ST. JOHN,18,10
+Canada,FREDERICTON,7,4
+Canada,GATINEAU,16,9
+Canada,GRAND BEND,12,7
+Canada,GRAND FALLS - WINDSOR,9,5
+Canada,GRANDE PRAIRIE,11,6
+Canada,GUELPH,14,8
+Canada,HALIFAX,12,5
+Canada,HAMILTON,16,10
+Canada,HOPE,9,5
+Canada,HOUSTON,16,9
+Canada,KAMLOOPS,16,9
+Canada,KINGSTON,11,6
+Canada,KITCHENER,15,9
+Canada,LA DORE,9,5
+Canada,LA PATRIE,9,5
+Canada,LA PECHE,9,5
+Canada,LAC-EDOUARD,7,4
+Canada,LAMONT,12,7
+Canada,LANGDALE,10,6
+Canada,LANGLEY,11,6
+Canada,LAVAL,16,9
+Canada,LEMIEUX,18,10
+Canada,LONDON,16,9
+Canada,LONGUEUIL,15,9
+Canada,MISSISSAUGA,14,8
+Canada,MONCTON,11,6
+Canada,MONTREAL,16,10
+Canada,MORRISBURG,12,7
+Canada,MOUNT PEARL,11,6
+Canada,NANAIMO,10,6
+Canada,NELSON,13,7
+Canada,NEWMARKET,12,7
+Canada,NORMAN WELLS,5,3
+Canada,NORTH BAY,9,5
+Canada,NORTH VANCOUVER,10,6
+Canada,NOTRE-DAME-DU-ROSAIRE,9,5
+Canada,OAKVILLE,14,8
+Canada,OSHAWA,12,7
+Canada,OTTAWA,11,7
+Canada,PARRY SOUND,11,6
+Canada,PETAWAWA,9,5
+Canada,PETERBOROUGH,12,7
+Canada,PICTOU,12,7
+Canada,PORT ALBERNI,14,8
+Canada,PORT HAWKESBURY,11,6
+Canada,PORT MOODY,11,6
+Canada,PORT STANLEY,12,7
+Canada,POWELL RIVER,7,4
+Canada,PRINCE GEORGE,15,9
+Canada,QUEBEC,18,9
+Canada,QUESNEL,15,9
+Canada,REGINA,25,14
+Canada,RICHMOND,12,7
+Canada,ROUYN-NORANDA,12,7
+Canada,SAGUENAY,11,6
+Canada,SAINT JOHN,8,7
+Canada,SAINT-FAUSTIN-LAC-CARRE,9,5
+Canada,SAINT-JEAN-SUR-RICHELIEU,12,7
+Canada,SAINT-SIMON,16,9
+Canada,SAINT-ZEPHIRIN-DE-COURVAL,14,8
+Canada,SARNIA,14,8
+Canada,SASKATOON,16,9
+Canada,SAULT STE. MARIE,11,6
+Canada,SENNETERRE,9,5
+Canada,SHERBROOKE,14,8
+Canada,SIMCOE,14,8
+Canada,ST. ANDREWS,12,7
+Canada,ST. CATHARINES,14,8
+Canada,ST. JOHN'S,9,5
+Canada,ST-HILAIRE-DE-DORSET,7,4
+Canada,STUKELY-SUD,9,5
+Canada,SUDBURY,11,6
+Canada,SURREY,12,7
+Canada,SYDNEY,11,6
+Canada,TERRACE,15,9
+Canada,THOMSON,12,4
+Canada,THUNDER BAY,11,6
+Canada,TINGWICK,12,7
+Canada,TORONTO,14,8
+Canada,TROIS-RIVIERES,19,11
+Canada,VANCOUVER,12,7
+Canada,VANDERHOOF,21,12
+Canada,VARENNES,16,9
+Canada,VICTORIA,13,8
+Canada,WEST VANCOUVER,9,5
+Canada,WHITEHORSE,11,6
+Canada,WILLIAMS LAKE,15,9
+Canada,WINDSOR,17,10
+Canada,WINNIPEG,17,7
+Canada,YELLOWKNIFE,11,6
+Chile,Andacollo,67,31
+Chile,Antofagasta,40,12
+Chile,Arica,33,15
+Chile,CopiapÃ_,47,19
+Chile,Coquimbo,31,14
+Chile,Coyhaique,75,64
+Chile,Curico,51,27
+Chile,Huasco,25,11
+Chile,Maule,42,22
+Chile,Osorno,54,35
+Chile,Padre las Casas,64,35
+Chile,Punta Arenas,12,5
+Chile,QuilpuÃ©,40,18
+Chile,Rancagua,75,30
+Chile,Rengo,49,23
+Chile,San Fernando,43,20
+Chile,Santiago,64,29
+Chile,Talagante,41,19
+Chile,Talca,49,25
+Chile,Temuco,50,31
+Chile,Valdivia,47,29
+Chile,ValparaÃ_so,34,16
+Chile,Vina del Mar,34,13
+China,Anshan,98,65
+China,Anyang,119,79
+China,Baoding,190,126
+China,Baoji,98,65
+China,Baotou,77,51
+China,Beihai,60,40
+China,Beijing,108,85
+China,Benxi,81,54
+China,Binzhou,80,53
+China,Cangzhou,133,88
+China,Changchun,130,64
+China,Changde,80,53
+China,Changhua,48,32
+China,Changsha,94,74
+China,Changshu,74,49
+China,Changzhi,101,67
+China,Changzhou,99,65
+China,Chaozhou,65,43
+China,Chengde,80,53
+China,Chengdu,150,71
+China,Chiayi,46,31
+China,Chifeng,60,40
+China,Chongqing,106,61
+China,Dalian,84,56
+China,Dandong,74,49
+China,Daqing,54,36
+China,Datong,63,42
+China,Deyang,68,45
+China,Dezhou,90,59
+China,Dongguan,65,43
+China,Dongying,81,54
+China,Eerduosi,42,28
+China,Foshan,83,44
+China,Fushun,80,53
+China,Fuyang,90,60
+China,Fuzhou,64,31
+China,Guangzhou,72,48
+China,Guilin,83,55
+China,Guiyang,85,49
+China,Haikou,47,22
+China,Haimen,77,51
+China,Handan,169,112
+China,Hangzhou,106,61
+China,Harbin,119,71
+China,Hefei,115,79
+China,Hengshui,161,107
+China,Heyuan,60,40
+China,Heze,91,60
+China,Hohhot,146,43
+China,Hong Kong,49,29
+China,Hsinchu,33,22
+China,Huai'an,98,65
+China,Hualien,18,12
+China,Huizhou,59,35
+China,Huludao,84,56
+China,Huzhou,111,63
+China,Jiangmen,77,43
+China,Jiangyin,102,68
+China,Jiaonan,79,53
+China,Jiaozhou,79,53
+China,Jiaozuo,103,68
+China,Jiaxing,94,56
+China,Jiayuguan,47,31
+China,Jieyang,60,40
+China,Jilin,76,50
+China,Jimo,77,51
+China,Jinan,199,52
+China,Jinchang,48,32
+China,Jingzhou,112,74
+China,Jinhua,99,63
+China,Jining,81,54
+China,Jintan,72,48
+China,Jinzhou,84,55
+China,Jiujiang,60,40
+China,Jurong,97,65
+China,Kaifeng,106,70
+China,Kaohsiung,46,30
+China,Karamay,50,33
+China,Keelung,30,20
+China,Kinmen,48,32
+China,Korla,87,58
+China,Kunming,82,34
+China,Kunshan,69,46
+China,Laiwu,103,68
+China,Laixi,84,56
+China,Laizhou,84,56
+China,Langfang,144,96
+China,Lanzhou,153,58
+China,Lhasa,64,24
+China,Lianyungang,92,61
+China,Liaocheng,96,63
+China,Lienchiang,39,26
+China,Lin'an,87,58
+China,Linfen,94,62
+China,Linyi,84,56
+China,Lishui,69,43
+China,Liuzhou,98,65
+China,Liyang,78,52
+China,Luoyang,85,56
+China,Luzhou,75,50
+China,Maanshan,87,57
+China,Maoming,49,32
+China,Meizhou,51,34
+China,Mianyang,66,44
+China,Miaoli,37,25
+China,Mudanjiang,75,50
+China,Nanchang,116,49
+China,Nanchong,86,57
+China,Nanjing,137,72
+China,Nanning,90,47
+China,Nantong,90,60
+China,Nantou,51,34
+China,New Taipei,34,22
+China,Ningbo,86,45
+China,Panjin,85,56
+China,Panzhihua,48,32
+China,Penghu,24,16
+China,Penglai,69,46
+China,Pingdingshan,105,70
+China,Pingdu,88,58
+China,Pingtung,34,22
+China,Qingdao,106,46
+China,Qingyuan,63,42
+China,Qinhuangdao,91,60
+China,Qiqihar,52,35
+China,Quanzhou,48,32
+China,Qujing,48,32
+China,Quzhou,94,57
+China,Rizhao,57,38
+China,Rongcheng,57,38
+China,Rushan,72,48
+China,Sanmenxia,96,64
+China,Sanya,23,15
+China,Shanghai,84,52
+China,Shantou,57,38
+China,Shanwei,41,27
+China,Shaoguan,73,48
+China,Shaoxing,105,64
+China,Shenyang,129,72
+China,Shenzhen,61,34
+China,Shijiazhuang,305,121
+China,Shizuishan,62,41
+China,Shouguang,117,78
+China,Suqian,102,68
+China,Suzhou,97,64
+China,Taian,83,55
+China,Taicang,82,55
+China,Taichung,44,29
+China,Tainan,44,29
+China,Taipei,28,19
+China,Taitung,16,11
+China,Taiyuan,157,67
+China,Taizhou,82,61
+China,Tangshan,153,102
+China,Taoyuan,36,24
+China,Tianjin,150,87
+China,Tongchuan,97,64
+China,Urumqi,146,64
+China,Wafangdian,88,59
+China,Weifang,73,49
+China,Weihai,45,30
+China,Weinan,102,68
+China,Wendeng,69,46
+China,Wenzhou,94,46
+China,Wuhan,124,80
+China,Wuhu,92,61
+China,Wujiang,85,56
+China,Wuxi,101,67
+China,Xiamen,62,36
+China,Xi'an,189,70
+China,Xiangtan,105,70
+China,Xianyang,98,65
+China,Xingtai,193,128
+China,Xining,163,62
+China,Xuzhou,100,66
+China,Yan'an,73,48
+China,Yancheng,86,57
+China,Yangjiang,48,32
+China,Yangquan,105,70
+China,Yangzhou,97,65
+China,Yantai,46,31
+China,Yibin,78,52
+China,Yichang,106,70
+China,Yilan,24,16
+China,Yinchuan,118,47
+China,Yingkou,61,40
+China,Yiwu,88,59
+China,Yixing,81,54
+China,Yueyang,73,49
+China,Yunfu,47,31
+China,Yunlin,46,31
+China,Yuxi,46,30
+China,Zaozhuang,73,48
+China,Zhangjiagang,91,60
+China,Zhangjiajie,71,47
+China,Zhangjiakou,51,34
+China,Zhangqiu,71,47
+China,Zhanjiang,39,26
+China,Zhaoqing,85,55
+China,Zhaoyuan,82,55
+China,Zhengzhou,171,86
+China,Zhenjiang,99,66
+China,Zhongshan,66,38
+China,Zhoushan,58,29
+China,Zhuhai,59,35
+China,Zhuji,88,59
+China,Zhuzhou,105,69
+China,Zibo,82,55
+China,Zigong,97,64
+China,Zunyi,74,49
+Colombia,Armenia,25,11
+Colombia,Barbosa,32,14
+Colombia,Bello,43,19
+Colombia,BogotÃ¡,52,24
+Colombia,Bucaramanga,47,21
+Colombia,Caldas,49,25
+Colombia,Cali,41,17
+Colombia,CiÃ©naga,48,21
+Colombia,Copacabana,35,16
+Colombia,Girardota,46,21
+Colombia,ItagÃ_Ã_,50,29
+Colombia,La Estrella,47,41
+Colombia,Manizales,26,18
+Colombia,Medellin,45,26
+Colombia,Pasto,18,9
+Colombia,Sabaneta,43,19
+Colombia,Santa Marta,36,16
+Colombia,Valledupar,36,16
+Costa Rica,Alajuela,28,20
+Costa Rica,BelÃ©n,31,30
+Costa Rica,Cartago,27,19
+Costa Rica,Heredia,47,29
+Costa Rica,Moravia,20,14
+Costa Rica,San JosÃ©,27,24
+Costa Rica,Santa Ana,23,16
+Croatia,KUTINA,32,19
+Croatia,OSIJEK,33,20
+Croatia,RIJEKA,18,11
+Croatia,SISAK,37,23
+Croatia,ZAGREB,36,22
+Cyprus,AYIA MARINA,26,13
+Cyprus,LARNAKA,36,17
+Cyprus,LIMASSOL,37,17
+Cyprus,NICOSIA,47,17
+Cyprus,PAFOS,36,16
+Czech Republic,BEROUN,27,13
+Czech Republic,BRANDYS,25,19
+Czech Republic,BRNO,25,20
+Czech Republic,CESKA LIPA,23,17
+Czech Republic,CESKE BUDEJOVICE,23,18
+Czech Republic,CESKY TESIN,45,33
+Czech Republic,CHEB,19,14
+Czech Republic,CHOMUTOV,25,18
+Czech Republic,DECIN,30,22
+Czech Republic,FRYDEK-MISTEK,38,28
+Czech Republic,HAVIROV,45,33
+Czech Republic,HRADEC KRALOVE,26,21
+Czech Republic,JABLONEC,22,16
+Czech Republic,JicÃ_n,22,18
+Czech Republic,JIHLAVA,20,17
+Czech Republic,KARLOVY VARY,25,19
+Czech Republic,KARVINA,43,32
+Czech Republic,KLADNO,30,12
+Czech Republic,KUTNA HORA,24,18
+Czech Republic,LIBEREC,25,22
+Czech Republic,LITOMERICE,27,20
+Czech Republic,MLADA BOLESLAV,26,19
+Czech Republic,MOST,31,22
+Czech Republic,OLOMOUC-HEJCIN,33,25
+Czech Republic,OPAVA,33,24
+Czech Republic,ORLOVA,44,33
+Czech Republic,OSTRAVA,41,32
+Czech Republic,PARDUBICE,28,22
+Czech Republic,PLZEN,25,21
+Czech Republic,PRAGUE,27,19
+Czech Republic,PREROV,31,23
+Czech Republic,PRIBRAM,23,17
+Czech Republic,PROSTEJOV,31,23
+Czech Republic,RYCHNOV N. KNEZNOU,24,18
+Czech Republic,SOKOLOV,18,13
+Czech Republic,STANKOV,27,20
+Czech Republic,TABOR,30,22
+Czech Republic,TANVALD,23,17
+Czech Republic,TEPLICE,26,19
+Czech Republic,TREBIC,22,16
+Czech Republic,TRINEC,35,31
+Czech Republic,TRUTNOV,22,17
+Czech Republic,UHERSKE HRADISTE,32,24
+Czech Republic,USTI NAD LABEM,27,18
+Czech Republic,VODNANY,27,20
+Czech Republic,VSETIN,28,21
+Czech Republic,VYSKOV,24,18
+Czech Republic,ZLIN,28,22
+Czech Republic,ZNOJMO,23,20
+Denmark,AALBORG,24,11
+Denmark,ARHUS,21,11
+Denmark,COPENHAGEN,27,11
+Denmark,KELDSNOR,16,7
+Denmark,ODENSE,22,10
+Ecuador,Ambato,20,9
+Ecuador,Cuenca,32,9
+Ecuador,Ibarra,18,9
+Ecuador,Latacunga,28,14
+Ecuador,Manta,28,13
+Ecuador,Milagro,66,32
+Ecuador,Portoviejo,25,12
+Ecuador,Quito,36,18
+Ecuador,Santo Domingo,69,33
+Egypt,Delta region,167,71
+Egypt,Greater Cairo,179,76
+El Salvador,San Salvador,77,42
+Estonia,KOHTLA-JARVE,17,6
+Estonia,NARVA,14,8
+Estonia,TALLINN,14,8
+Estonia,TARTU,17,8
+Finland,Harjavalta,12,7
+Finland,Helsinki,19,9
+Finland,HyvinkÃ_Ã_,16,8
+Finland,Imatra,13,7
+Finland,JyvÃ_skylÃ_,13,6
+Finland,Kajaani,13,7
+Finland,Kotka,15,8
+Finland,Kouvola,15,7
+Finland,Kuopio,15,6
+Finland,Lahti,15,8
+Finland,Lappeenranta,16,8
+Finland,Lohja,11,6
+Finland,Mikkeli,14,7
+Finland,Muonio,4,2.21
+Finland,Oulu,14,8
+Finland,Pietarsaari,16,8
+Finland,Pori,14,7
+Finland,Raahe,9,5
+Finland,Tampere,18,9
+Finland,Turku,15,8
+Finland,Vaasa,14,7
+Finland,Valkeakoski,13,6
+Finland,Vantaa,16,8
+Finland,Virolahti,13,7
+France,AGEN,15,9
+France,AIRVAULT,16,10
+France,AIX-EN-PROVENCE,24,13
+France,AJACCIO,24,10
+France,ALBERTVILLE,17,11
+France,ALBI,16,15
+France,AMIENS,21,13
+France,ANGERS,19,12
+France,ANGLET,27,17
+France,ANGOULEME,20,10
+France,ANNECY,21,16
+France,ANNEMASSE,17,12
+France,ANTIBES,26,16
+France,ARLES,26,16
+France,ARMENTIERES,18,11
+France,ARREST,18,11
+France,ATTON,15,9
+France,AURILLAC,14,9
+France,AUXERRE,15,10
+France,AVIGNON,22,13
+France,AYTRE,22,14
+France,BAIE-MAHAULT,15,9
+France,BAR-LE-DUC,17,11
+France,BASSENS,18,11
+France,BASTIA,23,11
+France,BAYONNE,19,8
+France,BEAUVAIS,22,15
+France,BELFORT,16,10
+France,BELLEVILLE-SUR-MEUSE,22,14
+France,BESANCON,22,14
+France,BESSIERES,18,11
+France,BETHENY,19,12
+France,BETHUNE,21,13
+France,BILLERE,16,10
+France,BIZANOS,15,9
+France,BLENOD-LES-PONT-A-MOUSSON,18,11
+France,BLOIS,16,10
+France,BOBIGNY,22,14
+France,BOIS-HERPIN,17,8
+France,BORDEAUX,22,14
+France,BOULOGNE-SUR-MER,23,14
+France,BOURG-EN-BRESSE,17,11
+France,BOURGES,19,12
+France,BOURG-LES-VALENCE,20,14
+France,BOURGOIN-JALLIEU,16,10
+France,BREST,20,13
+France,BRIVE-LA-GAILLARDE,21,13
+France,CAEN,20,11
+France,CAGNES-SUR-MER,23,14
+France,CALAIS,22,15
+France,CAMBRAI,21,11
+France,CAMPAGNE-LES-BOULONNAIS,19,14
+France,CANNES,22,14
+France,CAPPELLE-LA-GRANDE,24,15
+France,CARLING,16,10
+France,CARTIGNIES,16,10
+France,CASTRES,15,9
+France,CAYENNE,33,15
+France,CERGY,20,12
+France,CERISE,17,11
+France,CHALONS-EN-CHAMPAGNE,19,12
+France,CHALON-SUR-SAONE,18,13
+France,CHAMALIERES,19,12
+France,CHAMBERY,20,15
+France,CHAMONIX-MONT-BLANC,18,11
+France,CHAMPFORGEUIL,13,8
+France,CHARLEVILLE-MEZIERES,20,12
+France,CHATEAUNEUF-LES-MARTIGUES,25,16
+France,CHATEAUROUX,16,10
+France,CHATENOIS,10,6
+France,CHAUNY,19,12
+France,CHERBOURG-OCTEVILLE,20,12
+France,CHOLET,18,11
+France,CLERMONT-FERRAND,17,11
+France,COGNAC,17,11
+France,COLMAR,19,12
+France,CONTES,27,17
+France,COULOMMIERS,31,19
+France,CREIL,20,13
+France,CROLLES,20,12
+France,DAIX,18,11
+France,DAX,17,12
+France,DENAIN,20,12
+France,DIEPPE,26,16
+France,DIJON,14,12
+France,DOLE,15,9
+France,DONGES,17,11
+France,DOUAI,21,16
+France,DREUX,15,9
+France,DUNKERQUE,23,16
+France,ECHIROLLES,28,15
+France,EPERNAY,22,14
+France,EPINAL,15,9
+France,ESCAUTPONT,19,12
+France,EVREUX,18,11
+France,FEYZIN,23,14
+France,FLEVILLE-DEVANT-NANCY,17,11
+France,FLORANGE,25,16
+France,FONTAINE,20,12
+France,FONTAINEBLEAU,14,9
+France,FORBACH,25,16
+France,FORT-DE-FRANCE,33,10
+France,FOS-SUR-MER,25,16
+France,FREMAINVILLE,17,11
+France,FROLOIS,21,13
+France,FROSSAY,16,10
+France,GAILLARD,18,11
+France,GANDRANGE,21,13
+France,GAP,21,13
+France,GARDANNE,29,14
+France,GENAS,21,13
+France,GENNEVILLIERS,22,14
+France,GONESSE,22,14
+France,GRAND-COURONNE,19,12
+France,GRANDE-SYNTHE,27,17
+France,GRAVELINES,21,13
+France,GRENOBLE,24,12
+France,GUERET,15,9
+France,GUIPRY,13,10
+France,HAYANGE,19,12
+France,HEMING,22,14
+France,HORNAING,21,13
+France,HYERES,19,12
+France,IFS,20,12
+France,ISSOIRE,14,9
+France,ISSOUDUN,10,11
+France,JONVILLE-EN-WOEVRE,21,15
+France,JOUE-LES-TOURS,19,12
+France,LA COULONCHE,14,9
+France,LA COURONNE,16,10
+France,LA LECHERE,25,16
+France,LA MULATIERE,30,17
+France,LA ROCHELLE,24,10
+France,LA ROCHE-SUR-YON,20,12
+France,LA TALAUDIERE,18,11
+France,LA TARDIERE,14,10
+France,LABASTIDE-CEZERACQ,18,11
+France,LAVAL,14,9
+France,LE CREUSOT,18,11
+France,LE HAVRE,20,13
+France,LE LAMENTIN,27,17
+France,LE MANS,17,13
+France,LE PALAIS-SUR-VIENNE,12,7
+France,LE PETIT-QUEVILLY,22,14
+France,LE PONTET,24,15
+France,LE PUY-EN-VELAY,18,11
+France,LE ROBERT,31,19
+France,LE TAMPON,7,4
+France,LENS,17,11
+France,LES ABYMES,22,14
+France,LES ANCIZES-COMPS,11,7
+France,LES MAZURES,13,9
+France,L'HOPITAL,15,9
+France,LILLE,22,17
+France,LIMOGES,15,9
+France,LISIEUX,18,11
+France,LOGNES,20,12
+France,LONGLAVILLE,16,10
+France,LONS-LE-SAUNIER,22,12
+France,LORIENT,19,11
+France,LOURDES,14,10
+France,LUCCIANA,17,11
+France,LUCE,16,11
+France,LUNEL-VIEL,18,10
+France,LUNEVILLE,19,12
+France,LYON,22,14
+France,MACON,15,9
+France,MALROY,18,11
+France,MANOSQUE,18,11
+France,MARCQ-EN-BAROEUL,22,14
+France,MARIGNANE,24,15
+France,MARMANDE,22,13
+France,MARSEILLE,29,17
+France,MARTIGUES,18,11
+France,MATOURY,21,13
+France,MAUBEUGE,19,12
+France,MELUN,27,17
+France,MERIGNAC,20,12
+France,METZ,22,17
+France,MEZE,19,16
+France,MIRAMAS,24,15
+France,MIRIBEL,20,12
+France,MONTANDON,15,9
+France,MONTBELIARD,19,13
+France,MONTCEAU-LES-MINES,13,8
+France,MONT-DE-MARSAN,20,10
+France,MONTLUCON,16,10
+France,MONTPELLIER,20,16
+France,MULHOUSE,20,12
+France,MUNCHHAUSEN,20,12
+France,NANCY,23,14
+France,NANTES,19,13
+France,NEUVES-MAISONS,25,16
+France,NEVERS,13,8
+France,NICE,29,14
+France,NIMES,21,14
+France,NIORT,20,10
+France,NOEUX-LES-MINES,17,10
+France,NOGENT-SUR-MARNE,20,12
+France,NOGENT-SUR-OISE,24,15
+France,NOTRE-DAME-DE-BLIQUETUIT,16,10
+France,NUITS-SAINT-GEORGES,19,12
+France,ORLEANS,19,12
+France,OUTREAU,21,13
+France,OYONNAX,13,8
+France,PANTIN,36,22
+France,PARAY-LE-FRESIL,12,9
+France,PARIS,28,18
+France,PASSY,29,18
+France,PAU,22,14
+France,PEILLON,27,17
+France,PERIGUEUX,16,10
+France,PERPIGNAN,17,10
+France,PEYRUSSE-VIEILLE,15,10
+France,POINTE-A-PITRE,23,14
+France,POITIERS,18,12
+France,PONT-A-MOUSSON,18,11
+France,PORT-DE-BOUC,22,14
+France,PORTES-LES-VALENCE,22,14
+France,PORT-SAINT-LOUIS-DU-RHONE,20,12
+France,PRUNAY-LE-TEMPLE,17,11
+France,PUSIGNAN,20,12
+France,PUTEAUX,20,12
+France,QUIMPER,24,15
+France,RAGEADE,10,6
+France,RAMBOUILLET,20,13
+France,REIMS,19,13
+France,RENNES,20,12
+France,RIEUX,23,14
+France,RIVE-DE-GIER,21,13
+France,ROANNE,15,9
+France,ROGNAC,16,11
+France,ROISEY,7,4
+France,ROMANS-SUR-ISERE,21,13
+France,ROUBAIX,27,20
+France,ROUEN,23,13
+France,ROUMAZIERES-LOUBERT,18,11
+France,ROUSSILLON,23,14
+France,SAILLAT-SUR-VIENNE,17,11
+France,SAINT-BRIEUC,19,12
+France,SAINT-BRISSON,9,5
+France,SAINT-CHAMOND,18,8
+France,SAINT-DENIS,24,16
+France,SAINT-DENIS-D'ANJOU,16,12
+France,SAINT-DIZIER,17,11
+France,SAINTE-MARGUERITE-SUR-MER,15,9
+France,SAINTE-SAVINE,19,14
+France,SAINTE-SUZANNE,15,9
+France,SAINT-ETIENNE,20,11
+France,SAINT-ETIENNE-DE-MONTLUC,16,10
+France,SAINT-FONS,22,14
+France,SAINT-GELY-DU-FESC,16,10
+France,SAINT-GERMAIN-SUR-RHONE,14,7
+France,SAINT-JEAN-DE-BRAYE,22,14
+France,SAINT-JEAN-DE-MAURIENNE,13,8
+France,SAINT-JOSEPH,9,4
+France,SAINT-JULIEN-LES-METZ,16,10
+France,SAINT-JULIEN-MONT-DENIS,20,12
+France,SAINT-JUNIEN,17,11
+France,SAINT-LAURENT-BLANGY,19,12
+France,SAINT-LAURENT-DES-ARBRES,16,12
+France,SAINT-LO,17,11
+France,SAINT-LOUIS,17,11
+France,SAINT-MARTIN-D'HERES,21,13
+France,SAINT-MARTIN-DU-TERTRE,19,12
+France,SAINT-MICHEL-L'OBSERVATOIRE,12,7
+France,SAINT-NAZAIRE,17,10
+France,SAINT-NAZAIRE-LE-DESERT,10,7
+France,SAINT-PAUL,16,6
+France,SAINT-PIERRE,22,9
+France,SAINT-QUENTIN,19,14
+France,SAINT-REMY-SUR-AVRE,24,15
+France,SALAISE-SUR-SANNE,21,16
+France,SALOME,22,14
+France,SALON-DE-PROVENCE,20,12
+France,SALOUEL,19,12
+France,SARREGUEMINES,14,9
+France,SARROLA-CARCOPINO,23,14
+France,SCHOELCHER,29,18
+France,SCHOENECK,25,16
+France,SENS,15,9
+France,STRASBOURG,25,16
+France,TALENCE,19,13
+France,TARBES,19,12
+France,TARTAS,20,12
+France,TERNAY,21,13
+France,THIONVILLE,20,17
+France,TOULON,24,10
+France,TOULOUSE,19,12
+France,TOURCOING,24,15
+France,TOURS,19,12
+France,TREMBLAY-EN-FRANCE,22,14
+France,TROYES,20,12
+France,TULLE,16,9
+France,VAL-DE-REUIL,17,11
+France,VALENCE,19,14
+France,VALENCIENNES,23,16
+France,VANNES,14,9
+France,VAULX-EN-VELIN,21,13
+France,VENACO,12,7
+France,VERNEUIL,14,9
+France,VESOUL,14,9
+France,VIENNE,24,14
+France,VIERZON,16,10
+France,VIF,17,11
+France,VILLAGE-NEUF,18,11
+France,VILLEFRANCHE-SUR-SAONE,21,13
+France,VILLEMANDEUR,18,11
+France,VILLEURBANNE,30,18
+France,VILLIERS-EN-BOIS,12,7
+France,VITRY-SUR-SEINE,20,13
+France,VITTEL,18,11
+France,VOIRON,21,13
+France,VOLMUNSTER,13,8
+France,WINGLES,19,12
+Georgia,Abastumani,28,15
+Georgia,Tbilisi,55,29
+Germany,AACHEN,18,13
+Germany,AALEN,18,12
+Germany,ALTENBURG,21,14
+Germany,ANNABERG-BUCHHOLZ,20,14
+Germany,ANSBACH,23,16
+Germany,ARZBERG,22,15
+Germany,ASCHAFFENBURG,19,13
+Germany,AUGSBURG,23,15
+Germany,BAD AROLSEN/KOHLGRUND,16,13
+Germany,BADEN-BADEN,15,11
+Germany,BAMBERG,18,13
+Germany,BAUTZEN,22,15
+Germany,BEBRA,20,14
+Germany,BERLIN,24,16
+Germany,BERNBURG,21,14
+Germany,BERNHAUSEN,20,14
+Germany,BIBERACH,17,12
+Germany,BIELEFELD,20,14
+Germany,BITTERFELD,15,10
+Germany,BONN,21,14
+Germany,BORKEN,22,15
+Germany,BORNA,23,16
+Germany,BOTTROP,23,16
+Germany,BREMEN,20,13
+Germany,BRUNBÃ_TTEL,21,13
+Germany,BUCKOW,18,13
+Germany,BURGHAUSEN,20,16
+Germany,CARLSFELD,12,9
+Germany,CHEMNITZ,20,14
+Germany,COBURG,19,13
+Germany,COLLM,16,11
+Germany,COTTBUS,24,17
+Germany,DARMSTADT,22,16
+Germany,DATTELN,20,17
+Germany,DESSAU,21,15
+Germany,DILLINGEN,18,13
+Germany,DORTMUND,24,16
+Germany,DREIssIGACKER,17,12
+Germany,DRESDEN,27,17
+Germany,DUISBURG,23,16
+Germany,DUNZWEILER,15,10
+Germany,DÃ_SSELDORF,26,15
+Germany,EISENHÃ_TTENSTADT,20,15
+Germany,ERFURT,22,15
+Germany,ERPFINGEN,13,9
+Germany,ESSEN,24,18
+Germany,FLENSBURG,21,13
+Germany,FRANKFURT,27,18
+Germany,FRANKFURT A. MAIN,22,16
+Germany,FREIBERG,21,15
+Germany,FREIBURG,16,13
+Germany,FRIEDRICHSHAFEN,19,13
+Germany,FÃ_RTH/ODENWALD,14,10
+Germany,GEHLBERG,10,8
+Germany,GELSENKIRCHEN,25,18
+Germany,GERA,20,14
+Germany,GLAUCHAU,21,15
+Germany,GOETTINGEN,13,11
+Germany,GÃ¶HLEN,15,11
+Germany,GÃ¶RLITZ,26,18
+Germany,HAMBURG,21,14
+Germany,HANAU,22,15
+Germany,HATTINGEN,20,14
+Germany,HEIDELBERG,20,14
+Germany,HERDORF,13,9
+Germany,HORTENKOPF,12,8
+Germany,HÃ_RTH,24,17
+Germany,INGOLSTADT,22,16
+Germany,KAISERSLAUTERN,18,13
+Germany,KARLSRUHE,19,14
+Germany,KASSEL,24,14
+Germany,KEHL,20,15
+Germany,KEHLHEIM,19,13
+Germany,KEMPTEN (AllgÃ_u),17,12
+Germany,KLEINWALLSTADT,20,14
+Germany,KLINGENTAL,16,11
+Germany,KOBLENZ,21,14
+Germany,KÃ¶LN,24,17
+Germany,KONSTANZ,19,13
+Germany,KREFELD,25,17
+Germany,KULMBACH,20,14
+Germany,LANDSHUT,22,16
+Germany,LEISEL,11,8
+Germany,LEUNA,19,13
+Germany,LEVERKUSEN,20,14
+Germany,LIMBURG,20,14
+Germany,LINDAU (BODENSEE),22,15
+Germany,LÃ_BECK,18,12
+Germany,LUDWIGSBURG,19,13
+Germany,LUDWIGSHAFEN,22,15
+Germany,LÃ_NEN,24,17
+Germany,MAINZ,21,15
+Germany,MANNHEIM,22,15
+Germany,MARBURG,19,13
+Germany,MEWEGEN,18,12
+Germany,MICHAELSTADT,18,12
+Germany,MÃ¶NCHENGLADBACH,21,15
+Germany,MÃ_LHEIM,21,15
+Germany,MÃ_NCHEN,21,15
+Germany,MÃ_NSTER,22,15
+Germany,NETTETAL,22,15
+Germany,NEUBRANDENBURG,20,14
+Germany,NEUENBURG,19,13
+Germany,NEUGLOBSOW,14,10
+Germany,NEUHAUSEN,14,10
+Germany,NEURUPPIN,18,12
+Germany,NEUSTADT,16,11
+Germany,NEUSTADT A.D.DONAU,18,13
+Germany,NEU-ULM,22,16
+Germany,NEUWIED,20,14
+Germany,NIEDERZIER,24,17
+Germany,NORDHAUSEN,19,13
+Germany,NÃ_RNBERG,23,15
+Germany,OBERRIED-HOFSGRUND,8,7
+Germany,OSNABRUECK,16,12
+Germany,PFORZHEIM,18,13
+Germany,PLAUEN,21,15
+Germany,POSSEN,13,9
+Germany,POTSDAM,23,14
+Germany,RADEBEUL,20,14
+Germany,RATINGEN,20,14
+Germany,RAUNHEIM,21,15
+Germany,REGENSBURG,28,19
+Germany,REUTLINGEN,18,13
+Germany,RIEDSTADT,19,13
+Germany,SAARBRÃ_CKEN,19,13
+Germany,SAARLOUIS,19,13
+Germany,SCHWÃƒâ€_BISCH HALL,19,13
+Germany,SCHWANDORF,20,14
+Germany,SCHWEDT/ODER,19,15
+Germany,SCHWEINFURT,18,13
+Germany,SCHWERTE,20,16
+Germany,SIMMERATH,13,9
+Germany,SOEST,18,15
+Germany,SOLINGEN,20,14
+Germany,STUTTGART,24,15
+Germany,SULZBACH-ROSENBERG,21,14
+Germany,TAUBERBISCHOFSHEIM,16,11
+Germany,TIEFENBACH,12,9
+Germany,TRIER,21,15
+Germany,TROSTBERG,19,14
+Germany,ULM,21,15
+Germany,UNNA,23,16
+Germany,VILLINGEN-SCHWENNINGEN,15,10
+Germany,WASCHEID,11,8
+Germany,WASSERKUPPE,10,7
+Germany,WEIDEN I.D.OPF.,21,15
+Germany,WEIL AM RHEIN,18,14
+Germany,WESEL,22,17
+Germany,WESTERLAND,18,12
+Germany,WETZLAR,22,15
+Germany,WIESBADEN,21,15
+Germany,WIESLOCH,19,13
+Germany,WITZENHAUSEN/WALD,12,8
+Germany,WOLFSBURG,14,10
+Germany,WORMS,22,16
+Germany,WÃ¶RTH,18,13
+Germany,WÃ_RZBURG,18,13
+Germany,ZEITZ,19,13
+Germany,ZELLA-MEHLIS,16,12
+Germany,ZINGST,14,10
+Greece,AGIA PARASKEVI,27,10
+Greece,AMAROUSSIO,35,13
+Greece,ATHENS,40,15
+Greece,ECHEDORO,26,10
+Greece,LARISSA,38,14
+Greece,LYKOVRISI,42,16
+Greece,PATRA,40,15
+Greece,PIREAS,37,14
+Greece,THESSALONIKI,22,8
+Greece,VOLOS,32,12
+Guatemala,Guatemala,56,41
+Honduras,Tegucigalpa,59,36
+Hungary,Ajka,21,17
+Hungary,Budapest,29,25
+Hungary,Debrecen,27,22
+Hungary,DunaÃºjvÃ¡ros,26,21
+Hungary,Esztergom,27,17
+Hungary,Gyor,23,15
+Hungary,HernÃ¡dszurdok,22,18
+Hungary,Kazincbarcika,31,25
+Hungary,Miskolc,35,29
+Hungary,NyÃ_regyhÃ¡za,32,26
+Hungary,PÃ©cs,31,25
+Hungary,SarrÃ_d,18,15
+Hungary,Sopron,24,20
+Hungary,SzÃ¡zhalombatta,23,19
+Hungary,Szeged,25,20
+Hungary,TatabÃ¡nya,26,21
+Hungary,VeszprÃ©m,17,14
+Iceland,AKUREYRI,12,8
+Iceland,HAFNARFJORDUR,8,4
+Iceland,REYKJAVIK,15,11
+India,Agra,196,105
+India,Ahmedabad,83,100
+India,Aizawl,54,29
+India,Akola,139,74
+India,Alappuzha,50,27
+India,Allahabad,317,170
+India,Alwar,152,81
+India,Amravati,100,54
+India,Amritsar,202,108
+India,Angul,106,57
+India,Anklesvar,100,53
+India,Aurangabad,80,43
+India,Baddi,99,53
+India,Balasore,82,44
+India,Bangalore,118,63
+India,Berhampur,80,43
+India,Bhilai,103,55
+India,Bhopal,173,93
+India,Bhubneshwar,81,43
+India,Bongaigaon,46,24
+India,Chandigarh,110,59
+India,Chandrapur,148,79
+India,Chennai,57,44
+India,Chitoor,40,21
+India,Coimbatore,68,36
+India,Cuttack,68,36
+India,Dehradun,188,100
+India,Delhi,229,122
+India,Devanagere,75,40
+India,Dewas,92,49
+India,Dhanbad,178,95
+India,Dibrugarh,56,30
+India,Dimapur,90,48
+India,Durgapur,108,58
+India,Faridabad,184,98
+India,Firozabad,212,113
+India,Gobindgarh,201,108
+India,Golaghat,55,29
+India,Guntur,75,40
+India,Guwahati,92,49
+India,Gwalior,329,176
+India,Hassan,36,19
+India,Howrah,186,100
+India,Hyderabad,79,59
+India,Indore,143,76
+India,Jaipur,187,100
+India,Jalandhar,140,75
+India,Jalgaon,130,70
+India,Jammu,119,64
+India,Jamnagar,101,54
+India,Jhansi,110,59
+India,Jodhpur,189,101
+India,Kakinada,58,31
+India,Kanpur,215,115
+India,Khanna,213,114
+India,Khurja,168,90
+India,Kochi,70,38
+India,Kohima,82,44
+India,Kolhapur,110,59
+India,Kolkata,135,61
+India,Kollam,41,22
+India,Korba,81,43
+India,Kota,156,84
+India,Kothagudem,63,34
+India,Kottayam,56,30
+India,Kozhikode,56,30
+India,Kurnool,74,40
+India,Lucknow,211,113
+India,Ludhiana,228,122
+India,Madurai,48,26
+India,Margherita,54,29
+India,Meerut,129,69
+India,Mumbai,117,63
+India,Nagaon,79,42
+India,Nagda,103,55
+India,Nagpur,103,55
+India,Nalbari,82,44
+India,Nalgonda,79,42
+India,Nanded,53,28
+India,Nashik,95,51
+India,Navi Mumbai,120,64
+India,Naya Nangal,89,47
+India,Nellore,62,33
+India,Noida,136,73
+India,Panaji,67,36
+India,Parwanoo,80,43
+India,Pathanamthitta,23,12
+India,Patiala,63,33
+India,Patna,167,149
+India,Puducherry,42,22
+India,Pune,92,49
+India,Raebareli,163,87
+India,Raipur,268,144
+India,Rajkot,99,53
+India,Ramagundam,82,44
+India,Raniganj,126,67
+India,Rayagada,54,29
+India,Rishikesh,109,58
+India,Rourkela,98,52
+India,Salem,60,32
+India,Sambalpur,53,28
+India,Sangli,80,43
+India,Shillong,65,35
+India,Shimla,58,31
+India,Sibsagar,109,58
+India,Silchar,91,48
+India,Singrauli,64,34
+India,Solapur,83,44
+India,Surat,97,52
+India,Tezpur,11,6
+India,Thane,73,39
+India,Thiruvananthapuram,55,29
+India,Tinsukia,57,30
+India,Trichy,75,40
+India,Tura,52,28
+India,Udaipur,155,83
+India,Ujjain,80,43
+India,Vadodara,102,55
+India,Vapi,100,54
+India,Varanasi,138,74
+India,Vishakhapatnam,65,35
+India,Warangal,49,26
+Indonesia,Bandung,59,33
+Iran (Islamic Republic of),Ahvaz,231,95
+Iran (Islamic Republic of),Arak,18,7
+Iran (Islamic Republic of),Bojnord,78,32
+Iran (Islamic Republic of),Boshehr,255,105
+Iran (Islamic Republic of),Hamadan,114,47
+Iran (Islamic Republic of),Isfahan,111,46
+Iran (Islamic Republic of),Kerman,47,19
+Iran (Islamic Republic of),Kermanshah,130,53
+Iran (Islamic Republic of),Mashhad,78,32
+Iran (Islamic Republic of),Pakdasht,113,47
+Iran (Islamic Republic of),Qazvin,44,18
+Iran (Islamic Republic of),"Rasht, Guilan",50,21
+Iran (Islamic Republic of),Robatkarim,105,43
+Iran (Islamic Republic of),Sanandaj,100,41
+Iran (Islamic Republic of),Sari,90,37
+Iran (Islamic Republic of),Semnan,57,23
+Iran (Islamic Republic of),Shahryar,91,37
+Iran (Islamic Republic of),Shiraz,108,45
+Iran (Islamic Republic of),Tabriz,68,40
+Iran (Islamic Republic of),Tehran,77,32
+Iran (Islamic Republic of),Urmia,91,37
+Iran (Islamic Republic of),Varamin,102,42
+Iran (Islamic Republic of),Yasuj,109,45
+Iran (Islamic Republic of),Zabol,527,217
+Iran (Islamic Republic of),Zanjan,74,31
+Iraq,Baghdad,208,88
+Ireland,BALBRIGGAN,12,8
+Ireland,BRAY,20,13
+Ireland,CASTLEBAR,15,10
+Ireland,DUBLIN,16,11
+Ireland,ENNIS,15,10
+Ireland,Galway,17,11
+Ireland,LONGFORD,22,15
+Ireland,Mace Head,13,4
+Israel,Afula,45,21
+Israel,Arad,53,23
+Israel,Ashdod,48,21
+Israel,Ashkelon,43,17
+Israel,Bat Hadar,40,17
+Israel,Beer Sheva,46,23
+Israel,Beit Shemesh,38,17
+Israel,Bnei Brak,53,23
+Israel,Ceasaria,39,17
+Israel,Eilat,53,23
+Israel,Erez,31,13
+Israel,Gedera,49,21
+Israel,Givataim (Tel Aviv),49,21
+Israel,Gvar'am,40,17
+Israel,Hadera,46,17
+Israel,Haifa,35,18
+Israel,Holon (Tel Aviv),42,18
+Israel,Jerusalem,45,19
+Israel,Karmey Yossef,46,20
+Israel,Karmiel,40,17
+Israel,Kfar Masarik,50,22
+Israel,Kiryat Ata,32,16
+Israel,Kiryat Bialik,32,14
+Israel,Kiryat Malahi,44,19
+Israel,Kiryat Tivon,36,16
+Israel,Modi'in,41,23
+Israel,Nesher,35,12
+Israel,Nir Galim,44,19
+Israel,Nir Israel,46,20
+Israel,Pardes Hana,49,21
+Israel,Petah Tikva,57,24
+Israel,Ra'anana,46,20
+Israel,Ramat Gan,45,23
+Israel,Rehovot,41,18
+Israel,Sde Yo'av,48,21
+Israel,Sderot,51,22
+Israel,Tel Aviv-Yafo,48,20
+Israel,Umm al-Fahm,45,19
+Israel,Yavne,42,18
+Israel,Zemer,39,17
+Italy,ACQUAPENDENTE,14,10
+Italy,ALATRI,32,21
+Italy,ALBA,31,21
+Italy,ALBENGA,18,12
+Italy,ALBISOLA SUPERIORE,9,6
+Italy,ALESSANDRIA,38,27
+Italy,ALFONSINE,37,24
+Italy,ALLUMIERE,10,7
+Italy,ANAGNI,28,18
+Italy,AOSTA,21,15
+Italy,APRILIA,21,14
+Italy,AREZZO,27,18
+Italy,ARNESANO,27,18
+Italy,ASSEMINI,28,18
+Italy,ASTI,30,20
+Italy,AVELLINO,33,20
+Italy,BADIA POLESINE,33,22
+Italy,BARI,25,17
+Italy,BASSANO DEL GRAPPA,29,19
+Italy,BELLUNO,18,16
+Italy,BENEVENTO,46,19
+Italy,BERGAMO,32,23
+Italy,BERTONICO,35,23
+Italy,BESENZONE,33,21
+Italy,BIELLA,20,14
+Italy,BOLOGNA,25,17
+Italy,BOLZANO,17,11
+Italy,BORGARO TORINESE,35,27
+Italy,BORGO VALSUGANA,26,17
+Italy,BORGOFRANCO SUL PO,31,20
+Italy,BORGOSESIA,23,17
+Italy,BORMIO,17,11
+Italy,BOSCO CHIESANUOVA,19,13
+Italy,BRESCIA,37,31
+Italy,BRESSANONE,14,9
+Italy,BRINDISI,24,16
+Italy,BRUNICO,15,10
+Italy,BUSTO ARSIZIO,29,19
+Italy,CAGLIARI,31,11
+Italy,CAIRO MONTENOTTE,24,18
+Italy,CALUSCO D'ADDA,30,21
+Italy,CAMPI SALENTINA,30,15
+Italy,CAMPOBASSO,22,14
+Italy,CANTU',27,18
+Italy,CAPANNORI,24,16
+Italy,CARCARE,26,17
+Italy,CARPI,30,20
+Italy,CARRARA,24,16
+Italy,CASALE MONFERRATO,26,17
+Italy,CASERTA,29,18
+Italy,CASIRATE D'ADDA,37,29
+Italy,CASSINO,38,29
+Italy,CASTELLARANO,25,17
+Italy,CECCANO,47,31
+Italy,CENGIO,11,7
+Italy,CENTO,25,17
+Italy,CERESOLE REALE,6,4
+Italy,CERVIA,25,16
+Italy,CESENA,23,15
+Italy,CHIERI,42,28
+Italy,CHITIGNANO,9,6
+Italy,CIAMPINO,29,19
+Italy,CINTO EUGANEO,26,17
+Italy,CIVITA CASTELLANA,25,17
+Italy,CIVITAVECCHIA,21,14
+Italy,CODOGNO,41,27
+Italy,COLLEFERRO,29,19
+Italy,COLORNO,28,18
+Italy,COMO,28,21
+Italy,CONEGLIANO,25,23
+Italy,CORTE BRUGNATELLA,9,6
+Italy,COSSATO,24,16
+Italy,CREMA,39,26
+Italy,CREMONA,35,27
+Italy,CUNEO,22,15
+Italy,DARFO BOARIO TERME,35,27
+Italy,DERNICE,14,11
+Italy,DONNAS,20,13
+Italy,DRUENTO,24,16
+Italy,ESTE,27,18
+Italy,FAENZA,20,15
+Italy,FELTRE,25,22
+Italy,FERENTINO,34,23
+Italy,FERNO,33,22
+Italy,FERRARA,29,19
+Italy,FIORANO MODENESE,33,22
+Italy,FIRENZE,26,16
+Italy,FOGGIA,23,15
+Italy,FOLIGNO,27,19
+Italy,FONTECHIARI,18,14
+Italy,FORLI',24,15
+Italy,FRANCAVILLA FONTANA,34,22
+Italy,FROSINONE,40,24
+Italy,GALATINA,24,16
+Italy,GENOVA,21,9
+Italy,GIANO DELL'UMBRIA,9,6
+Italy,GORIZIA,23,15
+Italy,GROSSETO,17,11
+Italy,GROTTAGLIE,18,12
+Italy,GUAGNANO,27,18
+Italy,GUASTALLA,29,21
+Italy,GUBBIO,18,12
+Italy,GUIDONIA MONTECELIO,25,16
+Italy,IMOLA,23,15
+Italy,JOLANDA DI SAVOIA,17,13
+Italy,LA SPEZIA,23,14
+Italy,LACES,14,14
+Italy,LAIVES,23,15
+Italy,LANGHIRANO,17,12
+Italy,LATINA,27,16
+Italy,LECCE,22,12
+Italy,LECCO,24,15
+Italy,LEGNAGO,35,23
+Italy,LEONESSA,11,8
+Italy,LIVORNO,23,13
+Italy,LODI,35,23
+Italy,LUCCA,29,19
+Italy,LUGAGNANO VAL D'ARDA,21,14
+Italy,MADDALONI,28,19
+Italy,MAGENTA,39,26
+Italy,MANFREDONIA,17,12
+Italy,MANTOVA,33,28
+Italy,MEDA,42,28
+Italy,MERANO,15,10
+Italy,MERATE,36,27
+Italy,MESAGNE,24,16
+Italy,MILANO,37,30
+Italy,MIRANDOLA,30,20
+Italy,MODENA,29,18
+Italy,MOLFETTA,24,16
+Italy,MOLINELLA,23,17
+Italy,MONDAINO,15,10
+Italy,MONOPOLI,20,13
+Italy,MONSERRATO,28,13
+Italy,MONTALE,29,19
+Italy,MONZA,38,31
+Italy,MORBEGNO,25,16
+Italy,MORGEX,22,15
+Italy,MUGGIA,22,14
+Italy,NAPOLI,35,20
+Italy,NOVARA,28,19
+Italy,NURAMINIS,23,15
+Italy,ODOLO,28,19
+Italy,OLBIA,20,13
+Italy,OSIO SOTTO,28,18
+Italy,OSTELLATO,25,16
+Italy,OULX,18,12
+Italy,PADOVA,34,28
+Italy,PARMA,34,18
+Italy,PARONA,38,25
+Italy,PAVIA,35,23
+Italy,PERUGIA,22,14
+Italy,PIACENZA,31,23
+Italy,PIEVE D'ALPAGO,13,9
+Italy,PIOLTELLO,41,27
+Italy,PIOMBINO,23,15
+Italy,PISA,25,16
+Italy,PISTOIA,23,15
+Italy,POGGIBONSI,18,12
+Italy,POMARANCE,10,6
+Italy,PONTI SUL MINCIO,31,24
+Italy,PORRETTA TERME,9,6
+Italy,PORTO TORRES,23,8
+Italy,PORTOSCUSO,23,13
+Italy,PRATO,29,20
+Italy,QUARTU SANT'ELENA,32,21
+Italy,QUILIANO,20,13
+Italy,RAPALLO,28,18
+Italy,RAVENNA,27,18
+Italy,REGGIO NELL'EMILIA,31,19
+Italy,REZZATO,42,28
+Italy,RIETI,21,15
+Italy,RIMINI,31,20
+Italy,RIVA DEL GARDA,21,14
+Italy,ROMA,28,17
+Italy,ROVERETO,19,15
+Italy,ROVIGO,33,25
+Italy,SALERNO,45,22
+Italy,SALICETO,23,15
+Italy,SAN BONIFACIO,36,24
+Italy,SAN CLEMENTE,21,14
+Italy,SAN DONA' DI PIAVE,39,26
+Italy,SAN LAZZARO DI SAVENA,25,16
+Italy,SAN PANCRAZIO SALENTINO,24,16
+Italy,SAN PIETRO VERNOTICO,23,15
+Italy,SAN ROCCO AL PORTO,30,20
+Italy,SANTA CROCE SULL'ARNO,27,18
+Italy,SANTA GIUSTA,17,11
+Italy,SANTA GIUSTINA IN COLLE,35,23
+Italy,SANTO STEFANO DI MAGRA,21,14
+Italy,SAREZZO,31,21
+Italy,SARONNO,30,22
+Italy,SARROCH,20,10
+Italy,SASSARI,18,8
+Italy,SASSUOLO,26,17
+Italy,SAVIGNANO SUL RUBICONE,29,17
+Italy,SAVONA,18,13
+Italy,SCANDICCI,24,16
+Italy,SCHIO,25,16
+Italy,SCHIVENOGLIA,32,27
+Italy,SETTIMO TORINESE,39,33
+Italy,SEULO,11,6
+Italy,SINISCOLA,15,10
+Italy,SONDRIO,25,19
+Italy,SORESINA,42,34
+Italy,SPOLETO,21,15
+Italy,SUSA,18,12
+Italy,TARANTO,22,14
+Italy,TAVAZZANO CON VILLAVESCO,35,23
+Italy,TERNI,32,22
+Italy,TORCHIAROLO,35,23
+Italy,TORGIANO,17,12
+Italy,TORINO,39,26
+Italy,TRENTO,24,16
+Italy,TREVIGLIO,35,23
+Italy,TREVISO,34,23
+Italy,TRIESTE,22,15
+Italy,TRIVERO,16,11
+Italy,TURBIGO,28,19
+Italy,UDINE,23,16
+Italy,VADO LIGURE,22,15
+Italy,VALMADRERA,24,16
+Italy,VARESE,28,22
+Italy,VENAFRO,33,22
+Italy,VENEZIA,32,25
+Italy,VERBANIA,17,12
+Italy,VERCELLI,33,23
+Italy,VERONA,34,21
+Italy,VERUCCHIO,19,12
+Italy,VEZZANO,8,5
+Italy,VIAREGGIO,27,18
+Italy,VICENZA,36,27
+Italy,VILLA MINOZZO,8,5
+Italy,VINCHIO,29,20
+Italy,VITERBO,19,11
+Italy,VOGHERA,27,18
+Jamaica,Kingston,48,26
+Jamaica,Northern St. Catherine,24,13
+Jamaica,"Old Harbour Plains, St. Catherine",34,18
+Jamaica,Portmore,54,29
+Jamaica,South Eastern Manchester,25,14
+Jamaica,Vere Plains Clarendon,42,23
+Japan,Fukuoka city,35,19
+Japan,Gifu city,26,14
+Japan,Hachioji city,24,13
+Japan,Kagoshima city,35,18
+Japan,Kyoto city,28,15
+Japan,Nagoya city,30,16
+Japan,Niigata city,24,13
+Japan,Okayama city,31,17
+Japan,Okinawa city,28,15
+Japan,Osaka city,32,17
+Japan,Sapporo city,19,10
+Japan,Sendai city,22,12
+Japan,Shizuoka city,22,12
+Japan,Tokyo,28,15
+Japan,Yokohama city,29,15
+Jordan,Al-Karak,45,19
+Jordan,Al-Zarqa',128,54
+Jordan,Amman,68,36
+Jordan,Irbid,69,23
+Kenya,Nairobi,33,17
+Kuwait,Al-Ahmadi,168,64
+Kuwait,Al-Fahaheel,107,44
+Kuwait,Ali Subah Al-Salem,179,74
+Kuwait,Al-Jahra,117,49
+Kuwait,Al-Mansouriya,165,68
+Kuwait,Al-Mutla,114,47
+Kuwait,Al-Rumaithyia,141,58
+Kuwait,Al-Salam,153,64
+Kuwait,Al-Shuwaikh,212,88
+Kuwait,Saad Al-Abdullah,112,46
+Kuwait,Shuaiba,63,26
+Latvia,LIEPAJA,24,18
+Latvia,REZEKNE,22,18
+Latvia,Riga,34,17
+Latvia,VENTSPILS,17,12
+Lebanon,Baalbak,34,26
+Lebanon,Beirut,41,32
+Lebanon,Saida,37,30
+Lebanon,Zahle,40,33
+Liberia,Buchanan (rural),66,9
+Liberia,Sanniquellie (rural),52,10
+Lithuania,JONAVA,28,18
+Lithuania,KAUNAS,27,19
+Lithuania,KEDAINIAI,30,20
+Lithuania,KLAIPEDA,32,20
+Lithuania,MAZEIKIAI,28,18
+Lithuania,NAUJOJI AKMENE,26,17
+Lithuania,PANEVEZYS,31,20
+Lithuania,SIAULIAI,37,24
+Lithuania,VILNIUS,27,23
+Luxembourg,BEKERICH,16,12
+Luxembourg,ESCH-SUR-ALZETTE,22,16
+Luxembourg,LUXEMBOURG,22,16
+Madagascar,Antanarivo,60,37
+Malaysia,Bayan Lepas,34,18
+Malaysia,Kuantan,27,14
+Malaysia,Kuching,26,14
+Malaysia,Petaling Jaya,47,25
+Malaysia,Senai,30,16
+Malaysia,Tanah Rata,20,10
+Maldives,Male,20,11
+Malta,GHARB,25,11
+Malta,MSIDA,38,18
+Malta,PAOLA,27,13
+Malta,ZEJTUN,23,10
+Mauritius,"Beau Bassin/Rose Hill, Coromandel",131,67
+Mauritius,"Bramsthan, Flacq",37,19
+Mauritius,Midlands,20,10
+Mauritius,Port Louis,27,14
+Mauritius,Vacoas,27,14
+Mexico,Guadalajara,41,19
+Mexico,Irapuato,55,26
+Mexico,LeÃ_n,58,27
+Mexico,Mexico city,42,20
+Mexico,Monterrey,86,36
+Mexico,Puebla,32,20
+Mexico,Salamanca,60,28
+Mexico,Silao,51,24
+Mexico,Toluca,80,33
+Monaco,Monaco,15,9
+Mongolia,Ulaanbaatar,165,75
+Montenegro,Bar,28,25
+Montenegro,NikÅ¡ic,43,23
+Montenegro,Pljevlja,77,42
+Montenegro,Podgorica,34,22
+Montenegro,Tivat,26,16
+Morocco,Casablanca,61,26
+Morocco,FÃ¨s,40,17
+Morocco,Marrakech,58,24
+Morocco,Meknes,47,29
+Morocco,Safi,21,9
+Morocco,SalÃ©,31,13
+Morocco,Tanger,57,24
+Myanmar,Kathar,76,42
+Myanmar,Kyauk Pa Taung,89,50
+Myanmar,Kyaukphyu,136,76
+Myanmar,Mawlamyaing,124,69
+Myanmar,Meikhtilar,59,33
+Myanmar,Namkham,127,71
+Myanmar,Namthu,31,17
+Myanmar,Nyaung Oo,91,51
+Myanmar,Pyay-Aunglan,44,25
+Myanmar,Pyin Oo Lwin,140,78
+Myanmar,Sintgaing,80,44
+Myanmar,Taungoo,137,76
+Myanmar,Thaungtha,80,44
+Myanmar,Yenanchaung,120,67
+Nepal,Kathmandu,88,49
+Netherlands,AMSTERDAM,23,16
+Netherlands,BEVERWIJK,21,13
+Netherlands,BREDA,22,15
+Netherlands,DE RIJP,20,13
+Netherlands,DEN HAAG,23,14
+Netherlands,DORDRECHT,24,16
+Netherlands,EINDHOVEN,23,15
+Netherlands,ENSCHEDE,21,14
+Netherlands,GRONINGEN,24,13
+Netherlands,HEERLEN,23,16
+Netherlands,HILVERSUM,22,14
+Netherlands,HOEK VAN HOLLAND,26,13
+Netherlands,HOOFDDORP,22,14
+Netherlands,IJMUIDEN,26,16
+Netherlands,LEIDEN,21,14
+Netherlands,MAASSLUIS,20,13
+Netherlands,MOERDIJK,19,12
+Netherlands,NIJMEGEN,24,15
+Netherlands,ROTTERDAM,24,15
+Netherlands,SCHIEDAM,20,15
+Netherlands,UTRECHT,20,13
+Netherlands,VELSEN,28,17
+Netherlands,WIJK AAN ZEE,26,16
+Netherlands,ZAANDAM,24,15
+New Zealand,Alexandra,22,11
+New Zealand,Ashburton,21,10
+New Zealand,Auckland,14,6
+New Zealand,Blenheim,19,9
+New Zealand,Christchurch,21,10
+New Zealand,Dunedin,18,9
+New Zealand,Geraldine,20,10
+New Zealand,Gore,23,11
+New Zealand,Hamilton,13,7
+New Zealand,Hastings,15,7
+New Zealand,Hawkes Bay,18,9
+New Zealand,Invercargill,24,12
+New Zealand,Kaiapoi,18,9
+New Zealand,Lower Hutt,10,5
+New Zealand,Masterton,14,12
+New Zealand,Matamata,13,6
+New Zealand,Napier,14,7
+New Zealand,Nelson Airshed A,19,9
+New Zealand,Nelson Airshed B,20,10
+New Zealand,Ngaruawahia,13,6
+New Zealand,Porirua,12,6
+New Zealand,Putaruru,12,6
+New Zealand,Rangiora,17,8
+New Zealand,Richmond,20,10
+New Zealand,Rotorua,18,9
+New Zealand,Taihape,14,7
+New Zealand,Taumarunui,17,8
+New Zealand,Taupo,13,6
+New Zealand,Tauranga,12,6
+New Zealand,Te Anau,6,2.73
+New Zealand,Te Kuiti,16,8
+New Zealand,Timaru,28,15
+New Zealand,Tokoroa,17,8
+New Zealand,Turangi,10,5
+New Zealand,Upper Hutt,10,5
+New Zealand,Waimate,18,9
+New Zealand,Wainuiomata,10,5
+New Zealand,Washdyke,17,8
+New Zealand,Wellington,13,6
+New Zealand,Whangarei,15,7
+Nigeria,Aba,373,49
+Nigeria,Abakaliki,88,28
+Nigeria,Afikpo,72,25
+Nigeria,Enugu,115,15
+Nigeria,Ile-Ife,103,26
+Nigeria,Kaduna,423,90
+Nigeria,Nnewi,57,24
+Nigeria,Nsukka,117,14
+Nigeria,Onitsha,594,66
+Nigeria,Orlu,52,16
+Nigeria,Owerri,158,44
+Nigeria,Umuahia,274,40
+Norway,AALESUND,16,8
+Norway,BAERUM,17,10
+Norway,BERGEN,19,9
+Norway,DRAMMEN,28,13
+Norway,FREDRIKSTAD,28,13
+Norway,KRISTIANSAND,19,9
+Norway,LILLEHAMMER,18,8
+Norway,MO I RANA,21,10
+Norway,OSLO,22,11
+Norway,STAVANGER,22,9
+Norway,TROMSÃ˜,16,8
+Norway,TRONDHEIM,18,8
+Oman,Muscat,82,35
+Pakistan,Islamabad,217,66
+Pakistan,Karachi,290,88
+Pakistan,Lahore,198,68
+Pakistan,Peshawar,540,111
+Pakistan,Rawalpindi,448,107
+Panama,Panama,31,14
+Paraguay,AsunciÃ_n,34,18
+Peru,Lima,88,48
+Philippines,Baguio City,84,44
+Philippines,Cebu,54,28
+Philippines,Daguapan City,51,27
+Philippines,Davao City,21,11
+Philippines,Manila,55,17
+Philippines,San Carlos City,61,32
+Philippines,Urdaneta,45,24
+Philippines,Zamboanga City,49,26
+Poland,BELSK DUZY,32,23
+Poland,BIALA PODLASKA,28,20
+Poland,BIALYSTOK,25,20
+Poland,BIELSKO BIALA,41,34
+Poland,BOCHNIA,39,30
+Poland,BOGATYNIA,21,15
+Poland,BRZEZINY,46,34
+Poland,BUSKO-ZDROJ,31,24
+Poland,BYDGOSZCZ,35,21
+Poland,CHELM,29,21
+Poland,CIECHANOW,28,20
+Poland,CIECHOCINEK,21,16
+Poland,CIESZYN,36,27
+Poland,CZESTOCHOWA,35,29
+Poland,DABROWA GORNICZA,43,32
+Poland,DZIALOSZYN,26,19
+Poland,DZIERZONIOW,29,21
+Poland,ELBLAG,23,17
+Poland,GAJEW,24,18
+Poland,GDANSK,20,13
+Poland,GDYNIA,16,12
+Poland,GLIWICE,46,35
+Poland,GLOGOW,31,23
+Poland,GNIEZNO,33,24
+Poland,GODOW,51,38
+Poland,GOLDAP,23,17
+Poland,GORLICE,31,23
+Poland,GORZOW WLKP.,26,16
+Poland,GRANICA,22,16
+Poland,GRUDZIADZ,31,23
+Poland,INOWROCLAW,10,8
+Poland,JAROSLAW,43,32
+Poland,JASLO,35,26
+Poland,JASNA GORA,16,12
+Poland,JELENIA GORA,41,30
+Poland,KALISZ,35,32
+Poland,KATOWICE,45,35
+Poland,KEDZIERZYN-KOZLE,39,33
+Poland,KIELCE,36,29
+Poland,KLODZKO,30,22
+Poland,KLUCZBORK,38,27
+Poland,KNUROW,48,36
+Poland,KONICZYNKA,29,21
+Poland,KONIN,30,22
+Poland,KOSCIERZYNA,37,28
+Poland,KOSZALIN,21,12
+Poland,KRAKOW,51,37
+Poland,KRASNIK,30,22
+Poland,KROSNO,34,28
+Poland,KWIDZYN,24,18
+Poland,LEGIONOWO,33,25
+Poland,LEGNICA,38,27
+Poland,LESZNO,30,22
+Poland,LODZ,38,27
+Poland,LOMZA,27,28
+Poland,LUBLIN,29,21
+Poland,LUBLINIEC,32,24
+Poland,MALBORK,24,18
+Poland,MIELEC,42,31
+Poland,MLAWA,32,24
+Poland,MYSLIBORZ,25,19
+Poland,MYSZKOW,41,30
+Poland,NAKLO,44,32
+Poland,NIDZICA,27,20
+Poland,NIEPOLOMICE,48,36
+Poland,NISKO,35,26
+Poland,NOWA RUDA,47,35
+Poland,NOWY SACZ,45,36
+Poland,NOWY TOMYSL,41,30
+Poland,OLAWA,34,25
+Poland,OLESNICA,31,23
+Poland,OLESNO,40,30
+Poland,OLSZTYN,22,16
+Poland,OPOCZNO,53,39
+Poland,OPOLE,31,24
+Poland,OSTRODA,21,16
+Poland,OSTROLEKA,25,18
+Poland,OSTROW WIELKOPOLSKI,38,28
+Poland,OTWOCK,38,28
+Poland,OZAROW,26,19
+Poland,PABIANICE,38,28
+Poland,PIASTOW,35,27
+Poland,PILA,27,20
+Poland,PIOTRKOW TRYBUNALSKI,39,30
+Poland,PLOCK,28,22
+Poland,POLANIEC,33,26
+Poland,POLKOWICE,30,22
+Poland,POZNAN,27,21
+Poland,PROSZOWICE,46,34
+Poland,PSZCZYNA,58,43
+Poland,PULAWY,34,25
+Poland,RADOM,35,24
+Poland,RADOMIERZYCE,20,15
+Poland,RADOMSKO,37,27
+Poland,RADZYN PODLASKI,28,21
+Poland,RAWA MAZOWIECKA,44,33
+Poland,RUDNA,30,22
+Poland,RYBNIK,53,40
+Poland,RZESZOW,32,25
+Poland,SANOK,29,22
+Poland,SIEDLCE,33,28
+Poland,SIERADZ,39,29
+Poland,SITKOWKA NOWINY,32,24
+Poland,SKAWINA,50,37
+Poland,SKIERNIEWICE,38,28
+Poland,SLUPSK,23,17
+Poland,SOPOT,16,12
+Poland,SOSNOWIEC,44,33
+Poland,STARACHOWICE,33,27
+Poland,STAROGARD GDANSKI,39,29
+Poland,SUCHA BESKIDZKA,53,39
+Poland,SULECIN,27,20
+Poland,SUWALKI,19,14
+Poland,SWIDNICA,37,27
+Poland,SWIECIE,24,18
+Poland,SZCZAWNO ZDROJ,34,25
+Poland,SZCZECIN,23,15
+Poland,SZCZECINEK,26,14
+Poland,TARNOW,34,27
+Poland,TARNOWEK,28,21
+Poland,TARNOWO PODGORNE,29,21
+Poland,TARNOWSKIE GORY,41,30
+Poland,TOMASZOW MAZOWIECKI,43,32
+Poland,TORUN,29,17
+Poland,TRZEBINIA,34,28
+Poland,TUCHOLA,21,16
+Poland,TUCHOW,48,36
+Poland,TYCHY,43,32
+Poland,WADOWICE,47,35
+Poland,WAGROWIEC,31,23
+Poland,WALBRZYCH,33,24
+Poland,WARSZAWA,33,26
+Poland,WIDUCHOWA,24,18
+Poland,WLADYSLAWOWO,18,13
+Poland,WLOCLAWEK,31,19
+Poland,WODZISLAW SLASKI,53,39
+Poland,WROCLAW,36,29
+Poland,WSCHOWA,27,22
+Poland,WYSZKOW,18,14
+Poland,ZABKOWICE SLASKIE,28,21
+Poland,ZABRZE,47,35
+Poland,ZAKOPANE,37,32
+Poland,ZAMOSC,31,22
+Poland,ZAWIERCIE,42,31
+Poland,ZDUNSKA WOLA,45,33
+Poland,ZGIERZ,36,27
+Poland,ZGORZELEC,30,24
+Poland,ZIELONA GORA,26,20
+Poland,ZIELONKA,18,14
+Poland,ZLOTORYJA,32,24
+Poland,ZLOTY POTOK,28,23
+Poland,ZORY,45,31
+Poland,ZYRARDOW,37,27
+Poland,ZYWIEC,58,43
+Portugal,Albufeira,19,14
+Portugal,Almada,14,9
+Portugal,Braga,12,9
+Portugal,Coimbra,17,12
+Portugal,Faro,16,11
+Portugal,Ãçlhavo,21,15
+Portugal,Lisboa,15,11
+Portugal,Loures,13,9
+Portugal,Santo Tirso,9,6
+Portugal,Sintra,11,8
+Portugal,Vila do Conde,16,11
+Portugal,Vila Franca de Xira,12,9
+Qatar,Al Wakrah,152,85
+Qatar,Doha,168,93
+Republic of Korea,Busan,48,25
+Republic of Korea,Chungbuk,52,27
+Republic of Korea,Chungnam,42,22
+Republic of Korea,Daegu,45,24
+Republic of Korea,Daejeon,41,22
+Republic of Korea,Gangwon,51,27
+Republic of Korea,Gwangju,41,22
+Republic of Korea,Gyeongbuk,49,26
+Republic of Korea,Gyeonggi,54,28
+Republic of Korea,Gyeongnam,48,25
+Republic of Korea,Incheon,49,26
+Republic of Korea,Jeju,47,25
+Republic of Korea,Jeonbuk,51,27
+Republic of Korea,Jeonnam,38,20
+Republic of Korea,Seoul,46,24
+Republic of Korea,Ulsan,46,24
+Romania,ALBA IULIA,26,20
+Romania,ALEXANDRIA,23,17
+Romania,ARAD,21,17
+Romania,BACAU,19,14
+Romania,BAIA MARE,21,19
+Romania,BLEJOI,26,20
+Romania,BOTOSANI,30,21
+Romania,BRASOV,24,15
+Romania,BUCHAREST,31,23
+Romania,BUZAU,25,19
+Romania,CAMPULUNG,12,9
+Romania,CLUJ,27,20
+Romania,COMUNA SINANDREI,19,14
+Romania,CONSTANTA,37,27
+Romania,CRAIOVA,26,19
+Romania,DEVA,18,13
+Romania,DROBETA TURNU SEVERIN,28,21
+Romania,GALATI,18,8
+Romania,GIURGIU,30,22
+Romania,HUSI,25,18
+Romania,IASI,44,20
+Romania,ISACCEA,18,13
+Romania,MEDIAS,26,19
+Romania,MIERCUREA CIUC,26,16
+Romania,MOLDOVA NOUA,19,14
+Romania,NADLAC,22,16
+Romania,ORADEA,21,16
+Romania,PIATRA NEAMT,22,16
+Romania,PITESTI,18,14
+Romania,PLOIESTI,31,18
+Romania,ROVINARI,39,29
+Romania,SANPETRU,18,13
+Romania,SATU MARE,22,16
+Romania,SIRET,25,19
+Romania,SLATINA,25,18
+Romania,SUCEAVA,28,21
+Romania,TIMISOARA,28,12
+Romania,TOMESTI,31,23
+Romania,TURCENI,26,19
+Romania,UNGHENI,26,19
+Romania,VULCAN,12,9
+Romania,ZONA FIRIZA,27,20
+Russian Federation,Moscow,33,20
+Saudi Arabia,Al Jubail,359,152
+Saudi Arabia,Dammam,286,121
+Saudi Arabia,Jeddah,161,68
+Saudi Arabia,Makkah,176,74
+Saudi Arabia,Medina,153,65
+Saudi Arabia,Riyadh,368,156
+Saudi Arabia,Yenbu,230,97
+Senegal,Dakar,141,34
+Serbia,BELGRADE,37,23
+Serbia,NIS,31,19
+Serbia,NOVI SAD,33,20
+Singapore,Singapore,30,18
+Slovakia,BANSKA BYSTRICA,35,17
+Slovakia,BRATISLAVA,27,18
+Slovakia,BYSTRICANY,35,22
+Slovakia,HANDLOVA,24,16
+Slovakia,HNUSTA,26,18
+Slovakia,HUMENNE,25,18
+Slovakia,KOSICE,29,19
+Slovakia,MALACKY,25,17
+Slovakia,MARTIN,28,17
+Slovakia,NITRA,26,18
+Slovakia,PRESOV,34,23
+Slovakia,PRIEVIDZA,32,21
+Slovakia,RUZOMBEROK,35,23
+Slovakia,SENICA,29,20
+Slovakia,STRAZSKE,27,20
+Slovakia,TRNAVA,31,20
+Slovakia,VELKA IDA,40,25
+Slovakia,VRANOV NAD TOPLOV,25,17
+Slovakia,ZIAR NAD HRONOM,22,15
+Slovakia,ZILINA,36,25
+Slovakia,ZVOLEN,26,20
+Slovenia,CELJE,29,22
+Slovenia,HRASTNIK,23,18
+Slovenia,KOPER,20,15
+Slovenia,KRANJ,25,19
+Slovenia,LJUBLJANA,25,20
+Slovenia,MARIBOR,30,21
+Slovenia,MURSKA SOBOTA,28,21
+Slovenia,NOVA GORICA,22,17
+Slovenia,NOVO MESTO,27,21
+Slovenia,TRBOVLJE1,30,23
+Slovenia,VELENJE,21,16
+Slovenia,ZAGORJE OB SAVI,29,22
+Slovenia,ZERJAV,26,20
+South Africa,Diepkloof,39,22
+South Africa,Ermelo,33,16
+South Africa,Hartebeespoort,119,60
+South Africa,Johannesburg,85,41
+South Africa,Middleburg,24,13
+South Africa,Mpumalanga,61,31
+South Africa,Sebokeng,42,31
+South Africa,Sekunda,54,26
+South Africa,Tshwane [Pretoria],63,51
+South Africa,Vereeniging,58,34
+South Africa,Waterberg,37,18
+South Africa,Witbank,30,16
+South Africa,Zamdela,56,30
+Spain,ABANTO Y CIERVANA/ABANTO ZIERB,21,12
+Spain,AGÃ_IMES,23,7
+Spain,AIA,14,8
+Spain,ALAGÃ“N,17,10
+Spain,ALBACETE,26,14
+Spain,ALBALAT DELS TARONGERS,10,7
+Spain,ALCALÃƒ__ DE HENARES,21,12
+Spain,ALCANAR,21,12
+Spain,ALCAÃ‘IZ,16,9
+Spain,ALCANTARILLA,21,12
+Spain,ALCOBENDAS,17,9
+Spain,ALCORA (L'),28,9
+Spain,ALCORCÃ“N,21,10
+Spain,ALCOY/ALCOI,12,7
+Spain,ALFARO,23,8
+Spain,ALGAR,26,15
+Spain,ALGAR DE PALANCIA,10,7
+Spain,ALGECIRAS,24,13
+Spain,ALGETE,16,9
+Spain,ALICANTE/ALACANT,16,10
+Spain,ALMAZORA/ALMASSORA,10,8
+Spain,ALMONTE,15,8
+Spain,ALZIRA,17,10
+Spain,AMETLLA DE MAR (L'),10,6
+Spain,ARAFO,23,7
+Spain,ARANDA DE DUERO,17,9
+Spain,ARANJUEZ,20,11
+Spain,ARGANDA DEL REY,22,12
+Spain,ARMILLA,26,15
+Spain,ARONA,29,11
+Spain,ARRASATE O MONDRAGÃ“N,14,8
+Spain,ARRECIFE,24,4
+Spain,ArrÃºbal,13,8
+Spain,ARTEIXO,16,9
+Spain,ARUCAS,23,11
+Spain,ASTILLERO (EL),20,11
+Spain,ATAZAR (EL),11,7
+Spain,ÃÅvila,19,10
+Spain,AVILES,32,18
+Spain,AZPEITIA,18,10
+Spain,BADAJOZ,13,7
+Spain,BADALONA,20,11
+Spain,BARCARROTA,13,7
+Spain,BARCELONA,24,15
+Spain,BARRIOS (LOS),25,14
+Spain,BEASAIN,18,10
+Spain,BENICASIM/BENICÃƒâ‚¬SSIM,9,7
+Spain,BENIDORM,10,8
+Spain,BILBAO,19,11
+Spain,BREÃ‘A ALTA,16,7
+Spain,BREÃ‘A BAJA,16,7
+Spain,BUJARALOZ,13,7
+Spain,BUÃ‘OL,7,5
+Spain,BUNYOLA,14,6
+Spain,BURGOS,14,8
+Spain,BURJASSOT,19,11
+Spain,BURRIANA,11,7
+Spain,CÃƒ__CERES,11,7
+Spain,CADAQUES,17,7
+Spain,CALANDA,10,6
+Spain,CAMARGO,21,12
+Spain,CAMBRE,17,9
+Spain,CampisÃ¡balos,6,5
+Spain,CANDELARIA,18,6
+Spain,CANGAS DEL NARCEA,28,16
+Spain,CARAVACA DE LA CRUZ,14,8
+Spain,CARRACEDELO,14,8
+Spain,CARTAGENA,23,13
+Spain,CASTELLÃ“N DE LA PLANA/CASTELLÃ“,15,12
+Spain,CASTRO-URDIALES,22,12
+Spain,CAUDETE DE LAS FUENTES,12,8
+Spain,CEE,16,9
+Spain,CERCEDA,14,8
+Spain,CERVO,12,7
+Spain,CESURAS,14,8
+Spain,CIUDAD REAL,21,12
+Spain,COLLADO VILLALBA,24,12
+Spain,COLMENAR VIEJO,18,10
+Spain,CONGOSTO,21,12
+Spain,CORRALES DE BUELNA (LOS),21,12
+Spain,CORUÃ‘A (A),22,12
+Spain,COSLADA,19,11
+Spain,CUADROS,10,5
+Spain,CUEVAS DEL ALMANZORA,27,15
+Spain,DONOSTIA-SAN SEBASTIÃƒ__N,12,7
+Spain,DumbrÃ_a,14,8
+Spain,DURANGO,23,13
+Spain,EIVISSA,21,12
+Spain,EJIDO (EL),28,16
+Spain,ELCHE/ELX,20,11
+Spain,ELCIEGO,12,7
+Spain,ELDA,12,9
+Spain,FABERO,20,11
+Spain,FERROL,19,10
+Spain,FUENLABRADA,18,10
+Spain,GALILEA,10,8
+Spain,GANDIA,17,10
+Spain,GETAFE,22,12
+Spain,GIJÃ“N,26,11
+Spain,GRANADILLA DE ABONA,24,9
+Spain,GUADALAJARA,18,10
+Spain,GUADALIX DE LA SIERRA,15,8
+Spain,GUARDO,22,12
+Spain,HERNANI,15,8
+Spain,HUELVA,24,14
+Spain,HUESCA,12,7
+Spain,ILLESCAS,25,14
+Spain,JEREZ DE LA FRONTERA,27,15
+Spain,La Linea de la ConcepciÃ_n,30,17
+Spain,LANGREO,26,14
+Spain,LARACHA,12,7
+Spain,LEGANES,21,12
+Spain,LEÃ“N,17,6
+Spain,LLANES,15,7
+Spain,LLODIO,19,11
+Spain,LOGROÃ‘O,21,12
+Spain,LORCA,22,12
+Spain,LUGO,23,13
+Spain,MADRID,19,10
+Spain,MAHÃ“N,19,6
+Spain,MAIRENA DEL ALJARAFE,27,15
+Spain,MAJADAHONDA,20,11
+Spain,MATARÃ“,22,12
+Spain,MEDINA DEL CAMPO,23,13
+Spain,MERIDA,16,9
+Spain,MIERES,27,15
+Spain,MIRANDA DE EBRO,24,13
+Spain,MORELLA,8,4
+Spain,MÃ“STOLES,19,10
+Spain,MOTRIL,26,14
+Spain,MURAS,10,6
+Spain,MURCIA,26,15
+Spain,NOIA,7,4
+Spain,OBEJO,13,7
+Spain,ONDA,15,8
+Spain,ORDES,14,8
+Spain,ORUSCO DE TAJUÃ‘A,13,7
+Spain,OURENSE,13,7
+Spain,OUROL,14,13
+Spain,OVIEDO,25,14
+Spain,PALENCIA,21,12
+Spain,PALMA DE MALLORCA,19,11
+Spain,PALMAS DE GRAN CANARIA (LAS),23,8
+Spain,PALOS DE LA FRONTERA,24,13
+Spain,PATERNA,16,9
+Spain,PEÃ‘AUSENDE,8,5
+Spain,PINOSO,12,6
+Spain,PLASENCIA,10,6
+Spain,POBLA (SA),18,10
+Spain,POIO,13,7
+Spain,POLLENÃ‡A,13,7
+Spain,PONFERRADA,17,10
+Spain,Pontes de GarcÃ_a RodrÃ_guez (As),10,7
+Spain,PONTEVEDRA,18,10
+Spain,PRADEJÃ“N,18,8
+Spain,PRADO DEL REY,21,12
+Spain,PUERTO DEL ROSARIO,26,8
+Spain,PUERTO REAL,33,18
+Spain,PUERTOLLANO,24,15
+Spain,Pueyo de AraguÃ¡s (El),7,4
+Spain,Punta UmbrÃ_a,23,13
+Spain,QUART DE POBLET,17,8
+Spain,REALEJOS (LOS),18,5
+Spain,REINOSA,12,7
+Spain,RIVAS-VACIAMADRID,18,10
+Spain,ROBLA (LA),20,11
+Spain,SAGUNTO/SAGUNT,13,8
+Spain,SALAMANCA,16,8
+Spain,SAN ANDRES Y SAUCES,17,9
+Spain,SAN BARTOLOME DE TIRAJANA,27,9
+Spain,SAN JORGE,13,7
+Spain,San MartÃ_n de Valdeiglesias,15,8
+Spain,SAN MARTÃçN DEL REY AURELIO,24,13
+Spain,SAN PABLO DE LOS MONTES,10,5
+Spain,SAN ROQUE,20,11
+Spain,SANGÃ_ESA/ZANGOZA,24,13
+Spain,SANT ANTONI DE PORTMANY,10,6
+Spain,SANT FELIU DE LLOBREGAT,19,10
+Spain,SANT JUST DESVERN,20,11
+Spain,SANTA CRUZ DE LA PALMA,21,6
+Spain,SANTA CRUZ DE TENERIFE,19,8
+Spain,Santa LucÃ_a de Tirajana,21,7
+Spain,SANTA MARGARIDA I ELS MONJOS,18,10
+Spain,SANTANDER,21,12
+Spain,SANTIAGO DE COMPOSTELA,23,13
+Spain,SARIÃ‘ENA,18,10
+Spain,SAVIÃ‘AO (O),10,7
+Spain,SEGOVIA,15,8
+Spain,SEVILLA,29,16
+Spain,SIERO,26,15
+Spain,SONDIKA,20,11
+Spain,SORIA,14,8
+Spain,TALAVERA DE LA REINA,16,9
+Spain,TEGUISE,19,7
+Spain,TELDE,25,8
+Spain,TERUEL,12,7
+Spain,TOJOS (LOS),9,5
+Spain,TOLEDO,17,10
+Spain,TOLOSA,17,9
+Spain,TORIL,11,6
+Spain,TORMS (ELS),11,6
+Spain,TORREJÃ“N DE ARDOZ,19,10
+Spain,TORRELAVEGA,22,12
+Spain,ValdegovÃ_a,13,7
+Spain,VALDEMORO,22,11
+Spain,VALENCIA,17,11
+Spain,VALLADOLID,14,10
+Spain,VALVERDE,18,10
+Spain,VandellÃ_s i l'Hospitalet de l'Infant,11,6
+Spain,VENTA DE BAÃ‘OS,12,6
+Spain,VIGO,21,11
+Spain,VILALBA,11,6
+Spain,VILLA DEL PRADO,24,12
+Spain,VILLALBA DE GUARDO,8,5
+Spain,VILLAR DEL ARZOBISPO,16,8
+Spain,VILLAREJO DE SALVANES,20,10
+Spain,VITORIA-GASTEIZ,8,4
+Spain,VIVER,10,7
+Spain,Viznar,14,9
+Spain,XOVE,13,7
+Spain,ZAFRA,13,7
+Spain,ZAMORA,16,9
+Spain,ZARAGOZA,17,10
+Spain,ZARRA,9,5
+Spain,ZORITA DEL MAESTRAZGO,12,6
+Sri Lanka,Colombo,64,36
+Sweden,ArlÃ¶v,25,8
+Sweden,GÃ¶teborg,19,6
+Sweden,HALMSTAD,17,5
+Sweden,KIRUNA,7,2.27
+Sweden,LINKOPING,23,7
+Sweden,MalmÃ¶,20,10
+Sweden,NorrkÃ¶ping,21,6
+Sweden,SKELLEFTEA,18,5
+Sweden,SÃ¶dertÃ_lje,29,9
+Sweden,SOLLENTUNA,20,6
+Sweden,STOCKHOLM,26,6
+Sweden,SUNDSVALL,22,7
+Sweden,TRELLEBORG,17,5
+Sweden,UmeÃ¥,14,4
+Sweden,UMEE,22,7
+Sweden,UPPSALA,24,4
+Sweden,VÃ_sterÃ¥s,23,7
+Sweden,VÃ_xjÃ¶,15,5
+Sweden,YSTAD,15,5
+Switzerland,BASEL,20,14
+Switzerland,BERN,23,16
+Switzerland,GENEVE,21,15
+Switzerland,LAUSANNE,20,14
+Switzerland,LUGANO,20,14
+Switzerland,LUZERN,22,15
+Switzerland,ST. GALLEN,16,11
+Switzerland,WINTERTHUR,19,13
+Switzerland,ZÃ_RICH,20,14
+Thailand,Bangkok,42,24
+Thailand,Chiang Mai,46,25
+Thailand,Chiang Rai,49,27
+Thailand,Chon buri,32,18
+Thailand,Khon Kaen,51,28
+Thailand,Lampang,53,29
+Thailand,Lamphun,44,24
+Thailand,Mae Hong Son,42,23
+Thailand,Nakhon Ratchasima,51,28
+Thailand,Nakhon Sawan,57,32
+Thailand,Nan,45,25
+Thailand,Narathiwat,29,16
+Thailand,Nonthaburi,46,25
+Thailand,Pathum Thani,48,27
+Thailand,Phayao,41,23
+Thailand,Phra Nakhon Si Ayutthaya,55,31
+Thailand,Phrae,55,31
+Thailand,Phuket,24,13
+Thailand,Rayong,41,23
+Thailand,Sa Kaeo,47,26
+Thailand,Samut Prakan,51,28
+Thailand,Samut Sakhon,55,30
+Thailand,Saraburi,57,31
+Thailand,Songkhla,44,24
+Thailand,Surat Thani,39,22
+Thailand,Yala,23,13
+The former Yugoslav Republic of Macedonia,BITOLA,69,40
+The former Yugoslav Republic of Macedonia,SKOPJE,74,45
+The former Yugoslav Republic of Macedonia,TETOVO,140,81
+The former Yugoslav Republic of Macedonia,VELES,51,30
+Tunisia,Bizerte,80,34
+Tunisia,Sfax,87,37
+Tunisia,Sousse,58,25
+Tunisia,Tunis,90,38
+Turkey,ADANA,46,28
+Turkey,ADIYAMAN,71,44
+Turkey,AFYON,98,60
+Turkey,AGRI,49,30
+Turkey,AKSARAY,68,41
+Turkey,AMASYA,39,24
+Turkey,ANKARA,77,47
+Turkey,ANTALYA,51,31
+Turkey,ARDAHAN,61,37
+Turkey,ARTVIN,28,17
+Turkey,AYDIN,71,43
+Turkey,BALIKESIR,46,28
+Turkey,BARTIN,60,37
+Turkey,BATMAN,109,67
+Turkey,BAYBURT,65,39
+Turkey,BILECIK,51,31
+Turkey,BINGOL,34,21
+Turkey,BITLIS,84,51
+Turkey,BOLU,80,49
+Turkey,BURDUR,78,47
+Turkey,BURSA,37,22
+Turkey,CANAKKALE,19,12
+Turkey,CANKIRI,83,50
+Turkey,CORUM,73,45
+Turkey,DENIZLI,73,45
+Turkey,DIYARBAKIR,69,42
+Turkey,DUZCE,85,52
+Turkey,EDIRNE,74,45
+Turkey,ELAZIG,44,27
+Turkey,ERZINCAN,50,30
+Turkey,ERZURUM,57,35
+Turkey,ESKISEHIR,32,19
+Turkey,GAZIANTEP,108,66
+Turkey,GIRESUN,12,7
+Turkey,GUMUSHANE,69,42
+Turkey,HAKKARI,109,67
+Turkey,HATAY,46,28
+Turkey,ICEL,53,32
+Turkey,IGDIR,88,54
+Turkey,ISPARTA,86,52
+Turkey,ISTANBUL,53,33
+Turkey,IZMIR,49,30
+Turkey,KAHRAMANMARAS,71,43
+Turkey,KARABUK,50,30
+Turkey,KARAMAN,93,57
+Turkey,KARS,52,32
+Turkey,KASTAMONU,31,19
+Turkey,KAYSERI,77,47
+Turkey,KILIS,58,36
+Turkey,KIRIKKALE,67,41
+Turkey,KIRKLARELI,46,28
+Turkey,KIRSEHIR,49,30
+Turkey,KOCAELI,55,34
+Turkey,KONYA,65,39
+Turkey,KUTAHYA,77,47
+Turkey,MALATYA,68,42
+Turkey,MANISA,50,30
+Turkey,MARDIN,51,31
+Turkey,MUGLA,71,43
+Turkey,MUS,83,50
+Turkey,NEVSEHIR,53,32
+Turkey,NIGDE,80,49
+Turkey,ORDU,53,32
+Turkey,OSMANIYE,82,50
+Turkey,RIZE,27,17
+Turkey,SAKARYA,82,50
+Turkey,SAMSUN,48,29
+Turkey,SIIRT,101,61
+Turkey,SINOP,37,23
+Turkey,SIRNAK,41,25
+Turkey,SIVAS,49,30
+Turkey,TEKIRDAG,69,42
+Turkey,TOKAT,29,18
+Turkey,TRABZON,58,35
+Turkey,TUNCELI,44,27
+Turkey,URFA,72,44
+Turkey,USAK,69,42
+Turkey,VAN,65,40
+Turkey,YALOVA,23,14
+Turkey,YOZGAT,50,31
+Turkey,ZONGULDAK,71,43
+Uganda,Kampala,170,104
+Unit. Rep. of Tanzania,Morogoro,35,23
+United Arab Emirates,Abu Dhabi,132,56
+United Arab Emirates,Al Ain,123,52
+United Arab Emirates,Al Gharbia - Bida Zayed,146,62
+United Arab Emirates,Al Gharbia - Gayathi,145,61
+United Arab Emirates,Al Gharbia - Liwa Oasis,133,56
+United Kingdom,ABERDEEN,13,9
+United Kingdom,ARMAGH,19,14
+United Kingdom,BELFAST,18,12
+United Kingdom,BIRKENHEAD,15,11
+United Kingdom,BIRMINGHAM,19,14
+United Kingdom,BOURNEMOUTH,13,9
+United Kingdom,BRIGHTON,16,11
+United Kingdom,BRISTOL,18,13
+United Kingdom,CARDIFF,19,14
+United Kingdom,CARLISLE,16,12
+United Kingdom,CHEPSTOW,19,14
+United Kingdom,CHESTERFIELD,17,10
+United Kingdom,EASTBOURNE,21,15
+United Kingdom,EDINBURGH,14,8
+United Kingdom,GIBRALTAR,31,14
+United Kingdom,GLASGOW,23,16
+United Kingdom,GRANGEMOUTH,14,9
+United Kingdom,HULL,14,12
+United Kingdom,INVERNESS,12,6
+United Kingdom,LEAMINGTON SPA,18,13
+United Kingdom,LEEDS,22,15
+United Kingdom,LIVERPOOL,14,12
+United Kingdom,LONDON,22,15
+United Kingdom,LONDONDERRY,15,11
+United Kingdom,MANCHESTER (Greate Manchester City Region),18,10
+United Kingdom,MIDDLESBROUGH,20,11
+United Kingdom,NEWCASTLE UPON TYNE,13,10
+United Kingdom,NEWPORT,18,13
+United Kingdom,NORWICH,15,13
+United Kingdom,NOTTINGHAM,21,12
+United Kingdom,OXFORD,21,14
+United Kingdom,PLYMOUTH,18,12
+United Kingdom,PORT TALBOT,25,14
+United Kingdom,PORTSMOUTH,18,14
+United Kingdom,PRESTONPANS,16,12
+United Kingdom,READING,16,10
+United Kingdom,SALTASH,15,11
+United Kingdom,SCUNTHORPE,22,16
+United Kingdom,SOUTHAMPTON,21,15
+United Kingdom,SOUTHEND - ON - SEA,15,11
+United Kingdom,STANFORD-LE-HOPE,24,14
+United Kingdom,STOCKTON-ON-TEES,17,10
+United Kingdom,STOKE - ON - TRENT,20,14
+United Kingdom,SUNDERLAND,13,9
+United Kingdom,SWANSEA,19,12
+United Kingdom,THURROCK,19,14
+United Kingdom,WARRINGTON,18,14
+United Kingdom,WIGAN,18,13
+United Kingdom,WREXHAM,17,10
+United Kingdom,YORK,15,12
+United States of America,"Adrian, MI",16,9
+United States of America,"Akron, OH",19,10
+United States of America,"Albany-Schenectady-Troy, NY",13,7
+United States of America,"Albuquerque, NM",12,6
+United States of America,"Alexandria, LA",14,8
+United States of America,"Allegan, MI",16,9
+United States of America,"Allentown-Bethlehem-Easton, PA-NJ",17,9
+United States of America,"Altoona, PA",21,11
+United States of America,"Anchorage, AK",9,5
+United States of America,"Anderson, IN",19,10
+United States of America,"Ann Arbor, MI",18,10
+United States of America,"Appleton, WI",16,9
+United States of America,"Asheville, NC",14,8
+United States of America,"Ashland, AL",16,9
+United States of America,"Athens, OH",14,8
+United States of America,"Athens, TN",17,9
+United States of America,"Athens-Clarke County, GA",19,10
+United States of America,"Atlanta-Sandy Springs-Marietta, GA",19,10
+United States of America,"Atlantic City, NJ",14,8
+United States of America,"Augusta-Richmond County, GA-SC",18,10
+United States of America,"Augusta-Waterville, ME",13,7
+United States of America,"Austin-Round Rock, TX",17,9
+United States of America,"Bakersfield, CA",18,10
+United States of America,"Baltimore-Towson, MD",18,10
+United States of America,"Baraboo, WI",14,7
+United States of America,"Baton Rouge, LA",16,8
+United States of America,"Battlement Mesa,Garfield,CO",7,4
+United States of America,"Bay City, MI",15,8
+United States of America,"Beaver Dam, WI",16,9
+United States of America,"Bellingham, WA",14,8
+United States of America,"Bennington, VT",12,6
+United States of America,"Birmingham-Hoover, AL",20,11
+United States of America,"Bishop, CA",15,8
+United States of America,"Bismarck, ND",8,5
+United States of America,"Bloomington, IN",18,10
+United States of America,"Boone, NC",13,7
+United States of America,"Boston-Cambridge-Quincy, MA-NH",12,7
+United States of America,"Boulder, CO",13,7
+United States of America,"Bowling Green, KY",17,9
+United States of America,"Brainerd, MN",9,5
+United States of America,"Bremerton-Silverdale, WA",9,5
+United States of America,"Bridgeport-Stamford-Norwalk, CT",15,8
+United States of America,"Brigham City, UT",12,6
+United States of America,"Bryson City (RR name Bryson),Swain,NC",15,8
+United States of America,"Burlington, NC",15,8
+United States of America,"Burlington-South Burlington, VT",10,5
+United States of America,"Burns,Harney,OR",17,9
+United States of America,"Butte-Silver Bow, MT",17,9
+United States of America,"Cadillac, MI",10,6
+United States of America,"Cambridge, MD",16,9
+United States of America,"Candor,Montgomery,NC",17,9
+United States of America,"Canton-Massillon, OH",21,11
+United States of America,"Cape Coral-Fort Myers, FL",11,6
+United States of America,"Carson City, NV",10,6
+United States of America,"Cedar Rapids, IA",18,10
+United States of America,"Charleston, WV",17,9
+United States of America,"Charleston-North Charleston, SC",16,9
+United States of America,"Charlotte-Gastonia-Concord, NC-SC",16,9
+United States of America,"Charlottesville, VA",14,7
+United States of America,"Chattanooga, TN-GA",17,9
+United States of America,"Cheyenne, WY",7,4
+United States of America,"Chicago-Naperville-Joliet, IL-IN-WI",22,12
+United States of America,"Chico, CA",16,9
+United States of America,"Cincinnati-Middletown, OH-KY-IN",19,10
+United States of America,"Clarksburg, WV",16,9
+United States of America,"Clarksville, TN-KY",18,10
+United States of America,"Clearlake, CA",8,4
+United States of America,"Cleveland-Elyria-Mentor, OH",19,10
+United States of America,"Clinton, IA",19,10
+United States of America,"Colorado Springs, CO",11,6
+United States of America,"Columbia, SC",17,9
+United States of America,"Columbia, TN",16,9
+United States of America,"Columbus, GA-AL",19,10
+United States of America,"Columbus, OH",19,10
+United States of America,"Colusa,Colusa,CA",13,7
+United States of America,"Concord, NH",12,7
+United States of America,"Cookeville, TN",16,9
+United States of America,"Corning, NY",11,6
+United States of America,"Corpus Christi, TX",18,10
+United States of America,"Cortina Indian Rancheria,Colusa,CA",13,7
+United States of America,"Crossett,Ashley,AR",16,9
+United States of America,"Dale,Spencer,IN",20,11
+United States of America,"Dallas-Fort Worth-Arlington, TX",18,10
+United States of America,"Daphne-Fairhope-Foley, AL",16,9
+United States of America,"Davenport-Moline-Rock Island, IA-IL",18,10
+United States of America,"Dayton, OH",17,9
+United States of America,"Decatur, AL",17,9
+United States of America,"Denver-Aurora, CO",13,7
+United States of America,"Des Moines-West Des Moines, IA",16,8
+United States of America,"Detroit Lakes,Becker,MN",13,7
+United States of America,"Detroit-Warren-Livonia, MI",18,10
+United States of America,"Dickinson, ND",8,4
+United States of America,"Dover, DE",15,8
+United States of America,"Duluth, MN-WI",13,7
+United States of America,"Durham, NC",14,8
+United States of America,"Dyersburg, TN",17,9
+United States of America,"East Stroudsburg, PA",16,9
+United States of America,"Eau Claire, WI",15,8
+United States of America,"El Centro, CA",19,10
+United States of America,"El Dorado, AR",17,9
+United States of America,"El Paso, TX",17,9
+United States of America,"Elizabethtown, KY",19,10
+United States of America,"Elkhart-Goshen, IN",28,15
+United States of America,"Emmetsburg,Palo Alto,IA",14,8
+United States of America,"Erie, PA",20,11
+United States of America,"Eugene-Springfield, OR",14,8
+United States of America,"Eureka-Arcata-Fortuna, CA",8,4
+United States of America,"Evansville, IN-KY",21,11
+United States of America,"Fairbanks, AK",19,10
+United States of America,"Fairmont, WV",18,10
+United States of America,"Fargo, ND-MN",9,5
+United States of America,"Farmington, NM",7,4
+United States of America,"Fayetteville, NC",16,9
+United States of America,"Fayetteville-Springdale-Rogers, AR-MO",16,9
+United States of America,"Flint, MI",16,9
+United States of America,"Florence, SC",17,9
+United States of America,"Florence-Muscle Shoals, AL",17,9
+United States of America,"Fort Collins-Loveland, CO",12,7
+United States of America,"Fort Madison-Keokuk, IA-MO",20,11
+United States of America,"Fort Smith, AR-OK",17,9
+United States of America,"Fort Wayne, IN",21,11
+United States of America,"Fresno, CA",28,15
+United States of America,"Gainesville, GA",16,9
+United States of America,"Gardnerville Ranchos, NV",15,8
+United States of America,"Gillette, WY",8,4
+United States of America,"Goldsboro, NC",22,12
+United States of America,"Gordon,Wilkinson,GA",20,11
+United States of America,"Grand Island, NE",12,7
+United States of America,"Grand Junction, CO",14,7
+United States of America,"Grand Rapids-Wyoming, MI",18,10
+United States of America,"Grants Pass, OR",14,7
+United States of America,"Greeley, CO",14,8
+United States of America,"Green Bay, WI",17,9
+United States of America,"Greensboro-High Point, NC",15,8
+United States of America,"Greenville, NC",14,8
+United States of America,"Greenville-Mauldin-Easley, SC",17,9
+United States of America,"Gulfport-Biloxi, MS",17,9
+United States of America,"Hagerstown-Martinsburg, MD-WV",18,10
+United States of America,"Hamilton,Ravalli,MT",14,8
+United States of America,"Hammond, LA",15,8
+United States of America,"Hanford-Corcoran, CA",30,16
+United States of America,"Harriman, TN",17,9
+United States of America,"Harrisburg-Carlisle, PA",18,10
+United States of America,"Harrisonburg, VA",16,9
+United States of America,"Hartford-West Hartford-East Hartford, CT",14,8
+United States of America,"Hattiesburg, MS",19,10
+United States of America,"Hazard,Perry,KY",16,8
+United States of America,"Helena, MT",10,5
+United States of America,"Hickory-Lenoir-Morganton, NC",17,9
+United States of America,"Hilo, HI",14,8
+United States of America,"Honolulu, HI",8,4
+United States of America,"Hot Springs, AR",17,9
+United States of America,"Houma-Bayou Cane-Thibodaux, LA",14,8
+United States of America,"Houston-Sugar Land-Baytown, TX",19,10
+United States of America,"Huntington-Ashland, WV-KY-OH",16,9
+United States of America,"Huntsville, AL",17,9
+United States of America,"Indianapolis-Carmel, IN",21,12
+United States of America,"Jackson, MS",18,10
+United States of America,"Jackson, TN",15,8
+United States of America,"Jacksonville, FL",15,8
+United States of America,"Jamestown-Dunkirk-Fredonia, NY",15,8
+United States of America,"Jamesville,Martin,NC",14,7
+United States of America,"Jasper, IN",21,11
+United States of America,"Johnstown, PA",21,11
+United States of America,"Juneau, AK",14,8
+United States of America,"Kalamazoo-Portage, MI",18,10
+United States of America,"Kalispell, MT",15,8
+United States of America,"Kansas City, MO-KS",16,9
+United States of America,"Kapaa, HI",8,4
+United States of America,"Keene, NH",17,9
+United States of America,"Kenansville,Duplin,NC",14,8
+United States of America,"Kingsport-Bristol-Bristol, TN-VA",16,9
+United States of America,"Klamath Falls, OR",16,9
+United States of America,"Knoxville, TN",18,10
+United States of America,"La Crosse, WI-MN",15,8
+United States of America,"Laconia, NH",8,5
+United States of America,"Lafayette, IN",20,11
+United States of America,"Lafayette, LA",15,8
+United States of America,"Lake Charles, LA",13,7
+United States of America,"Lakeland, FL",13,7
+United States of America,"Lakeview,Lake,OR",16,9
+United States of America,"Lancaster, PA",25,13
+United States of America,"Lansing-East Lansing, MI",17,9
+United States of America,"Las Vegas-Paradise, NV",14,8
+United States of America,"Lawrenceburg, TN",15,8
+United States of America,"Lawton, OK",15,8
+United States of America,"Lebanon, NH-VT",12,6
+United States of America,"Lebanon, PA",23,13
+United States of America,"Lewiston-Auburn, ME",14,8
+United States of America,"Lexington-Fayette, KY",17,9
+United States of America,"Libby,Lincoln,MT",17,9
+United States of America,"Lincoln, NE",14,8
+United States of America,"Little Rock-North Little Rock-Conway, AR",19,10
+United States of America,"Logan, UT-ID",12,6
+United States of America,"Los Angeles-Long Beach-Santa Ana, CA",20,11
+United States of America,"Louisville/Jefferson County, KY-IN",21,11
+United States of America,"Lumberton, NC",16,9
+United States of America,"Lynchburg, VA",14,8
+United States of America,"Macon, GA",19,10
+United States of America,"Madera, CA",26,14
+United States of America,"Madison, WI",17,9
+United States of America,"Manchester-Nashua, NH",11,6
+United States of America,"Manistee,Manistee,MI",11,6
+United States of America,"Marshall, MN",11,6
+United States of America,"Marshall, TX",16,9
+United States of America,"McAlester, OK",17,9
+United States of America,"McAllen-Edinburg-Mission, TX",18,10
+United States of America,"Medford, OR",17,9
+United States of America,"Memphis, TN-MS-AR",17,9
+United States of America,"Mena,Polk,AR",17,9
+United States of America,"Merced, CA",20,11
+United States of America,"Miami-Fort Lauderdale-Pompano Beach, FL",11,6
+United States of America,"Michigan City-La Porte, IN",18,10
+United States of America,"Middlesborough, KY",17,9
+United States of America,"Milwaukee-Waukesha-West Allis, WI",18,10
+United States of America,"Minneapolis-St. Paul-Bloomington, MN-WI",14,8
+United States of America,"Missoula, MT",15,8
+United States of America,"Mobile, AL",17,9
+United States of America,"Modesto, CA",22,12
+United States of America,"Montgomery, AL",17,9
+United States of America,"Morgantown, WV",16,9
+United States of America,"Mount Vernon-Anacortes, WA",11,6
+United States of America,"Muncie, IN",19,10
+United States of America,"Muscatine, IA",19,10
+United States of America,"Napa, CA",22,12
+United States of America,"Nashville-Davidson-Murfreesboro-Franklin, TN",18,10
+United States of America,"New Castle, IN",18,10
+United States of America,"New Haven-Milford, CT",16,9
+United States of America,"New Orleans-Metairie-Kenner, LA",14,8
+United States of America,"New York-Northern New Jersey-Long Island, NY-NJ-PA",16,9
+United States of America,"Niles-Benton Harbor, MI",16,9
+United States of America,"Nogales, AZ",18,10
+United States of America,"Norwich-New London, CT",15,8
+United States of America,"Not in a City,Burke,ND",7,4
+United States of America,"Not in a City,Carter,KY",15,8
+United States of America,"Not in a City,Caswell,NC",18,10
+United States of America,"Not in a City,Cedar,MO",15,8
+United States of America,"Not in a City,Chesterfield,SC",16,9
+United States of America,"Not in a City,Converse,WY",4,2.3
+United States of America,"Not in a City,Custer,SD",4,2.4
+United States of America,"Not in a City,Delaware,IA",17,9
+United States of America,"Not in a City,Dunn,ND",8,4
+United States of America,"Not in a City,Essex,NY",6,4
+United States of America,"Not in a City,Fergus,MT",8,4
+United States of America,"Not in a City,Hancock,ME",8,4
+United States of America,"Not in a City,Jackson,NC",14,7
+United States of America,"Not in a City,Jackson,SD",8,4
+United States of America,"Not in a City,Kent,MD",15,8
+United States of America,"Not in a City,Lake,MN",8,4
+United States of America,"Not in a City,Lemhi,ID",23,13
+United States of America,"Not in a City,McKenzie,ND",6,3.2
+United States of America,"Not in a City,Mercer,ND",8,5
+United States of America,"Not in a City,Montgomery,IA",14,8
+United States of America,"Not in a City,Neosho,KS",18,10
+United States of America,"Not in a City,Oliver,ND",9,5
+United States of America,"Not in a City,Page,VA",15,8
+United States of America,"Not in a City,Phillips,MT",8,4
+United States of America,"Not in a City,Powder River,MT",11,6
+United States of America,"Not in a City,Richland,MT",13,7
+United States of America,"Not in a City,Rosebud,MT",10,6
+United States of America,"Not in a City,Sublette,WY",10,5
+United States of America,"Not in a City,Van Buren,IA",16,9
+United States of America,"Ogden-Clearfield, UT",14,8
+United States of America,"Oklahoma City, OK",17,9
+United States of America,"Omaha-Council Bluffs, NE-IA",15,8
+United States of America,"Orlando-Kissimmee, FL",12,6
+United States of America,"Owensboro, KY",20,11
+United States of America,"Oxnard-Thousand Oaks-Ventura, CA",16,9
+United States of America,"Paducah, KY-IL",19,10
+United States of America,"Parkersburg-Marietta-Vienna, WV-OH",18,10
+United States of America,"Pascagoula, MS",18,10
+United States of America,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",19,10
+United States of America,"Phoenix-Mesa-Scottsdale, AZ",16,9
+United States of America,"Pikeville,Pike,KY",16,9
+United States of America,"Pittsburgh, PA",19,10
+United States of America,"Pittsfield, MA",11,6
+United States of America,"Pocatello, ID",13,7
+United States of America,"Portland-Vancouver-Beaverton, OR-WA",12,7
+United States of America,"Portola,Plumas,CA",29,16
+United States of America,"Portsmouth, OH",15,8
+United States of America,"Poughkeepsie-Newburgh-Middletown, NY",13,7
+United States of America,"Prineville, OR",18,10
+United States of America,"Providence-New Bedford-Fall River, RI-MA",11,6
+United States of America,"Provo-Orem, UT",13,7
+United States of America,"Pueblo, CO",11,6
+United States of America,"Quincy,Plumas,CA",17,9
+United States of America,"Raleigh-Cary, NC",17,9
+United States of America,"Rapid City, SD",11,6
+United States of America,"Reading, PA",18,10
+United States of America,"Redding, CA",8,5
+United States of America,"Reno-Sparks, NV",15,8
+United States of America,"Richmond, VA",15,8
+United States of America,"Richmond-Berea, KY",16,9
+United States of America,"Riverside-San Bernardino-Ontario, CA",20,11
+United States of America,"Roanoke, VA",15,8
+United States of America,"Rochester, MN",12,6
+United States of America,"Rochester, NY",13,7
+United States of America,"Rumford (census name for Rumford Compact),Oxford,ME",14,8
+United States of America,"Rutland, VT",16,9
+United States of America,"Sacramento--Arden-Arcade--Roseville, CA",14,8
+United States of America,"Salinas, CA",9,5
+United States of America,"Salisbury, NC",17,9
+United States of America,"Salt Lake City, UT",12,7
+United States of America,"San Andreas,Calaveras,CA",15,8
+United States of America,"San Antonio, TX",16,9
+United States of America,"San Diego-Carlsbad-San Marcos, CA",15,8
+United States of America,"San Francisco-Oakland-Fremont, CA",16,9
+United States of America,"San Jose-Sunnyvale-Santa Clara, CA",12,7
+United States of America,"San Luis Obispo-Paso Robles, CA",16,9
+United States of America,"Sandersville,Washington,GA",18,10
+United States of America,"Sanford, NC",17,9
+United States of America,"Santa Barbara-Santa Maria-Goleta, CA",15,8
+United States of America,"Santa Cruz-Watsonville, CA",10,5
+United States of America,"Santa Rosa-Petaluma, CA",14,8
+United States of America,"Sault Ste. Marie, MI",11,6
+United States of America,"Seaford, DE",16,8
+United States of America,"Seattle-Tacoma-Bellevue, WA",12,6
+United States of America,"Sheridan, WY",10,5
+United States of America,"Sierra Vista-Douglas, AZ",13,7
+United States of America,"Sinclair,Carbon,WY",3,1.6
+United States of America,"Sioux City, IA-NE-SD",16,9
+United States of America,"Sioux Falls, SD",14,8
+United States of America,"Somerset, KY",17,9
+United States of America,"South Bend-Mishawaka, IN-MI",19,10
+United States of America,"Spartanburg, SC",17,9
+United States of America,"Spokane, WA",13,7
+United States of America,"Springfield, MA",11,6
+United States of America,"Springfield, MO",17,9
+United States of America,"Spruce Pine,Mitchell,NC",14,8
+United States of America,"St. Cloud, MN",11,6
+United States of America,"St. Joseph, MO-KS",20,11
+United States of America,"St. Louis, MO-IL",21,11
+United States of America,"State College, PA",18,10
+United States of America,"Stockton, CA",20,11
+United States of America,"Stuttgart,Arkansas,AR",17,9
+United States of America,"Syracuse, NY",12,7
+United States of America,"Talladega-Sylacauga, AL",17,9
+United States of America,"Tallahassee, FL",17,9
+United States of America,"Tampa-St. Petersburg-Clearwater, FL",12,7
+United States of America,"Terre Haute, IN",21,11
+United States of America,"Texarkana, TX-Texarkana, AR",18,10
+United States of America,"Thomasville-Lexington, NC",18,10
+United States of America,"Toledo, OH",19,10
+United States of America,"Topeka, KS",16,9
+United States of America,"Torrington, CT",10,5
+United States of America,"Trenton-Ewing, NJ",15,8
+United States of America,"Tucson, AZ",11,6
+United States of America,"Tulsa, OK",17,9
+United States of America,"Tuscaloosa, AL",17,9
+United States of America,"Ukiah, CA",10,6
+United States of America,"Valdosta, GA",17,9
+United States of America,"Vallejo-Fairfield, CA",18,10
+United States of America,"Virginia Beach-Norfolk-Newport News, VA-NC",15,8
+United States of America,"Visalia-Porterville, CA",33,18
+United States of America,"Warner Robins, GA",17,9
+United States of America,"Washington-Arlington-Alexandria, DC-VA-MD-WV",16,9
+United States of America,"Waterloo-Cedar Falls, IA",17,9
+United States of America,"Watertown, SD",8,5
+United States of America,"Weirton-Steubenville, WV-OH",20,11
+United States of America,"Wenden, AZ",4,2
+United States of America,"Wheeling, WV-OH",19,11
+United States of America,"Wichita, KS",17,9
+United States of America,"Williston, ND",11,6
+United States of America,"Wilmington, NC",12,7
+United States of America,"Winchester, VA-WV",17,9
+United States of America,"Winona, MN",15,8
+United States of America,"Winston-Salem, NC",16,9
+United States of America,"Worcester, MA",12,7
+United States of America,"Yakima, WA",13,7
+United States of America,"Youngstown-Warren-Boardman, OH-PA",20,11
+United States of America,"Yreka,Siskiyou,CA",17,9
+United States of America,"Yuma, AZ",12,6
+Uruguay,Montevideo,26,8
+"Venezuela, Bolivarian Republic of",Caracas,47,25
