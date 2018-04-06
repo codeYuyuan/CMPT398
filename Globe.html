@@ -3,6 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
     <title>Globe</title>  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<style>
 
 		.map_path {
@@ -44,6 +45,17 @@
 		  top: 100%;
 		  left: 0;
 		}
+		#switch{
+			text-align: center;
+			margin:auto;
+    		display:block;
+		}
+		#globe{
+			margin: 30 5% 5%;
+		}
+		#table{
+			margin: 0 5% 5%;
+		}
 
 	</style>
 </head> 
@@ -74,6 +86,8 @@
 
 		var globe = [];
 		var details = {};
+		var dataS = "PM10";
+
 		//get data from CSV
 		d3.csv("./who-aap-database-countries-may2016.csv", function (data) {
 			data.forEach(c => {
@@ -92,7 +106,7 @@
 			d3.csv("./who-aap-database-may2016-detail.csv",function(data){
 				data.forEach(r => {
 					 if(r.Country in details){
-					 	var info = {city: r.City,
+					 	var info = {city: capitalize(r.City),
 					 				PM10: r.PM10,
 					 				PM25: r.PM25};
 					 	details[r.Country].push(info);
@@ -111,6 +125,9 @@
 			visualization();
 		});
 
+		function capitalize(string) {
+		    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+		}
 
 		function PMData() {
 			console.log("here");
@@ -207,16 +224,16 @@
 	}
 
 	function visualization() {
-		var width = document.documentElement.clientWidth;
-		var height = document.documentElement.clientHeight;
+		var width = document.documentElement.clientWidth * 0.9;
+		var height = document.documentElement.clientHeight *0.9;
 		var speed = 0.5;
 		var isMouseOn = false;
 		
-		var svg = d3.select("body").append("svg")
+		var svg = d3.select("#globe").append("svg")
 		    .attr("width", width)
 		    .attr("height", height);
 
-		var svg2 = d3.select("body").append("svg")
+		var svg2 = d3.select("#table").append("svg")
 		    .attr("width", width)
 		    .attr("height", height)
 		    .append("g").attr("transform", "translate(50,5)");
@@ -238,9 +255,10 @@
 			.attr("y",height/2)
 			.text("Now Loading...");
 
-			    
+		
 
-		function generateTable(data){
+
+		function generateTable(data, dataSouce){
 
 			//var chartWidth = width - 50;
 			var margin = 80;
@@ -250,7 +268,7 @@
 
 			//svg2.append("g").attr('transform', 'translate(' + 50 + ',' + 0 + ')');
 
-			console.log(data);
+			// console.log(data);
 			var cities = data.map(function(t){
 				return t.city;
 			});
@@ -263,8 +281,8 @@
 
 			var bandwidth = cityScale.bandwidth();
 
-			var maxPM = d3.max(data, function(d){
-				return parseInt(d.PM10);
+			var maxPM =  d3.max(data, function(d){
+				return dataSouce=="PM10"?parseInt(d.PM10):parseInt(d.PM25);
 			})
 
 			// alert(maxPM);
@@ -287,7 +305,7 @@
 		            .attr("dy", ".15em")
 		            .attr("transform", function(d) {
 		                return "rotate(-65)";
-		                });
+		            });
 
 
 		   	var yAxisEle = svg2.append('g')
@@ -301,7 +319,12 @@
 						  .style('fill', 'black')
 						  .attr('dy', '-2.5em')
 						  .style('font-size', 14)
-						  .text('PM10');
+						  .text(function(){
+						  	if(dataSouce == "PM10")
+						  		return	'PM10';
+						  	else
+						  		return 'PM2.5'
+						  	});
 
 			var barHolder = svg2.append('g')
 							//.attr('transform', 'translate(55,0)')
@@ -311,7 +334,10 @@
 			  .attr('class', 'd3-tip')
 			  .offset([-10, 0])
 			  .html(function(d) {
-			    return d.city + "<span style='color:red'>:" + d.PM10 + "</span>";
+			  	if(dataSouce == "PM10")
+			    	return d.city + "<span style='color:red'>:" + d.PM10+ "</span>";
+			    else
+			    	return d.city + "<span style='color:red'>:" + d.PM25+ "</span>";
 			  })
 			svg2.call(tip);
 
@@ -325,12 +351,12 @@
 					    })
 					    .attr('width', bandwidth)
 					    .attr('y', function(d) {
-					    	console.log(d);
-					      return pmScale(d.PM10);
+					    	// console.log(d);
+					      return pmScale(dataSouce=="PM10"? d.PM10:d.PM25);
 					    })
 					    .attr('height', function(d) {
 					    	//console.log(pmScale(d.PM10));
-					      return chartHeight - pmScale(d.PM10);
+					      return chartHeight - pmScale(dataSouce=="PM10"? d.PM10:d.PM25);
 					    })
 					    .attr('name', function(d) {
 					    	return d.city;
@@ -365,6 +391,8 @@
 				.attr("class","grid_path")
 				.attr("d",path);
 			
+			var citiesData;
+
 			map.selectAll(".map_path")
 					.data( root.features )
 					.enter()
@@ -385,15 +413,15 @@
 								break;
 							}
 						}
-						var citiesData = details[countryName];
+						citiesData = details[countryName];
 						if(citiesData){
 							var top10PM10 = citiesData.sort(comparatorPM10).slice(0,10);
 							console.log(top10PM10);
 
 							var top10PM25 = citiesData.sort(comparatorPM25).slice(0,10);
-							console.log(top10PM25)
+							// console.log(top10PM25)
 							//generateTable(top10PM10);
-							generateTable(citiesData);
+							generateTable(citiesData,dataS);
 						}
 						isMouseOn = true;
 						d3.select(this)
@@ -403,11 +431,23 @@
 						isMouseOn = false;
 						d3.select(this)
 							.attr("fill",getColor(d));
-					});;
+					});
 
 			svg.select("#loading")
 				.attr("opacity",0);
 			
+	        var btnToggle = document.getElementById("switch");
+			btnToggle.addEventListener("click", function(){
+				console.log(dataS);
+				if(dataS == "PM10"){
+					dataS = "PM25"
+				}else{
+					dataS = "PM10";
+					// console.log(dataS);
+				}
+				generateTable(citiesData, dataS);
+
+			})
 
 			
 			var offset = 0;
@@ -432,5 +472,8 @@
 	
 
 </script>
+	<div id="globe"></div>
+	<div id="table"></div>
+	<button type="button" id="switch" class="btn btn-success">Switch: PM2.5/PM10</button>
 	</body>
 </html>
