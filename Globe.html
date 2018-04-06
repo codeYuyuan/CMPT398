@@ -16,12 +16,42 @@
 			fill:none;
 			opacity: 1;
 		}
+		.d3-tip {
+		  line-height: 1;
+		  font-weight: bold;
+		  padding: 12px;
+		  background: rgba(0, 0, 0, 0.8);
+		  color: #fff;
+		  border-radius: 2px;
+		}
+
+		/* Creates a small triangle extender for the tooltip */
+		.d3-tip:after {
+		  box-sizing: border-box;
+		  display: inline;
+		  font-size: 10px;
+		  width: 100%;
+		  line-height: 1;
+		  color: rgba(0, 0, 0, 0.8);
+		  content: "\25BC";
+		  position: absolute;
+		  text-align: center;
+		}
+
+		/* Style northward tooltips differently */
+		.d3-tip.n:after {
+		  margin: -1px 0 0 0;
+		  top: 100%;
+		  left: 0;
+		}
 
 	</style>
 </head> 
 
 <body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
 </script>
 <script>
 
@@ -160,6 +190,22 @@
 			}
 		}
 
+	function comparatorPM25(a,b){
+		if(a.PM25 > b.PM25)
+			return -1;
+		else if (a.PM25 < b.PM25)
+			return 1;
+		return 0;
+	}
+
+	function comparatorPM10(a,b){
+		if(a.PM10 > b.PM10)
+			return -1;
+		else if (a.PM10 < b.PM10)
+			return 1;
+		return 0;
+	}
+
 	function visualization() {
 		var width = document.documentElement.clientWidth;
 		var height = document.documentElement.clientHeight;
@@ -169,6 +215,11 @@
 		var svg = d3.select("body").append("svg")
 		    .attr("width", width)
 		    .attr("height", height);
+
+		var svg2 = d3.select("body").append("svg")
+		    .attr("width", width)
+		    .attr("height", height)
+		    .append("g").attr("transform", "translate(50,5)");
 		
 		var projection = d3.geoOrthographic()
 				.scale(300);
@@ -186,6 +237,115 @@
 			.attr("x",width/2)
 			.attr("y",height/2)
 			.text("Now Loading...");
+
+			    
+
+		function generateTable(data){
+
+			//var chartWidth = width - 50;
+			var margin = 80;
+			var chartHeight = height - margin;
+
+			svg2.selectAll('g').remove();
+
+			//svg2.append("g").attr('transform', 'translate(' + 50 + ',' + 0 + ')');
+
+			console.log(data);
+			var cities = data.map(function(t){
+				return t.city;
+			});
+
+			//console.log(cities);
+			var cityScale = d3.scaleBand()
+						.domain(cities)
+						.range([0,width - 100])
+						.paddingInner(0.1);
+
+			var bandwidth = cityScale.bandwidth();
+
+			var maxPM = d3.max(data, function(d){
+				return parseInt(d.PM10);
+			})
+
+			// alert(maxPM);
+
+			var pmScale = d3.scaleLinear()
+							.domain([0,maxPM])
+							.range([chartHeight, 0])
+							.nice();
+
+			var xAxis = d3.axisBottom(cityScale);
+			var yAxis = d3.axisLeft(pmScale);
+
+			 svg2.append("g")
+			     .classed("x axis", true)
+			     .attr('transform', 'translate(0,' + chartHeight + ')')
+  				 .call(xAxis)
+  				 .selectAll("text")
+  				 	.style("text-anchor", "end")
+		            .attr("dx", "-.8em")
+		            .attr("dy", ".15em")
+		            .attr("transform", function(d) {
+		                return "rotate(-65)";
+		                });
+
+
+		   	var yAxisEle = svg2.append('g')
+						  .classed('y axis', true)
+						  .attr('transform', 'translate(0,0)')
+						  .call(yAxis);
+
+			var yText = yAxisEle.append('text')
+						  .attr('transform', 'rotate(-90)translate(-' + chartHeight/2 + ',0)')
+						  .style('text-anchor', 'middle')
+						  .style('fill', 'black')
+						  .attr('dy', '-2.5em')
+						  .style('font-size', 14)
+						  .text('PM10');
+
+			var barHolder = svg2.append('g')
+							//.attr('transform', 'translate(55,0)')
+ 							.classed('bar-holder', true);
+
+			var tip = d3.tip()
+			  .attr('class', 'd3-tip')
+			  .offset([-10, 0])
+			  .html(function(d) {
+			    return d.city + "<span style='color:red'>:" + d.PM10 + "</span>";
+			  })
+			svg2.call(tip);
+
+
+			var bars = barHolder.selectAll('rect.bar')
+					    .data(data)
+					  .enter().append('rect')
+					    .classed('bar', true)
+					    .attr('x', function(d, i) {
+					      return cityScale(d.city)
+					    })
+					    .attr('width', bandwidth)
+					    .attr('y', function(d) {
+					    	console.log(d);
+					      return pmScale(d.PM10);
+					    })
+					    .attr('height', function(d) {
+					    	//console.log(pmScale(d.PM10));
+					      return chartHeight - pmScale(d.PM10);
+					    })
+					    .attr('name', function(d) {
+					    	return d.city;
+					    })
+					    .on('mouseover', function(d,i){
+					    	d3.select(this)
+							.attr("fill","red");
+							tip.show(d,i);
+					    })
+					    .on('mouseout',function(d,i){
+					    	d3.select(this)
+					    	.attr("fill","black");
+					    	tip.hide(d,i);
+					    });
+		}
 		
 		d3.json("world_605kb.json", function(error, root) {
 			if (error) 
@@ -216,7 +376,7 @@
 					})
 					.attr("d", path )
 					.on("mouseover",function(d,i){
-						console.log(d);
+						// console.log(d);
 						var countryName = d.properties.BRK_NAME;
 						console.log(countryName);
 						for(var key in details){
@@ -225,7 +385,16 @@
 								break;
 							}
 						}
-						console.log(details[countryName]);
+						var citiesData = details[countryName];
+						if(citiesData){
+							var top10PM10 = citiesData.sort(comparatorPM10).slice(0,10);
+							console.log(top10PM10);
+
+							var top10PM25 = citiesData.sort(comparatorPM25).slice(0,10);
+							console.log(top10PM25)
+							//generateTable(top10PM10);
+							generateTable(citiesData);
+						}
 						isMouseOn = true;
 						d3.select(this)
 							.attr("fill","yellow");
